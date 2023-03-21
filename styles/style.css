@@ -1,0 +1,318 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+    font-family: "Open Sans", sans-serif;
+    min-height: 100vh;
+    height: 100%;
+    margin: 0;
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+header {
+    top: 0;
+    width: 100%;
+    position: fixed-top;
+}
+
+/*--------------------------------------------------------------
+# Navbar 1
+--------------------------------------------------------------*/
+.u-nav {
+    background-color: white;
+    height: auto;
+}
+
+.navbar-light .nav-link {
+    color: #1e2d4d;
+}
+
+.navbar-light .nav-link:hover {
+    color: #00838f;
+}
+
+.nav-link.active {
+    color: white;
+    /*Text*/
+    background-color: #e84f10;
+}
+
+/*--------------------------------------------------------------
+# Inscription/Connexion Modal
+--------------------------------------------------------------*/
+.modal-container .btn-primary {
+    background-color: #00838f !important;
+    border-color: #00838f !important;
+}
+
+/*--------------------------------------------------------------
+# Index
+--------------------------------------------------------------*/
+.bg-image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sec1 .btn-outline-primary,
+.sec3 .btn-outline-primary {
+    border-color: #e84f10 !important;
+    color: #e84f10 !important;
+}
+
+.sec1 .btn-outline-primary:hover,
+.sec3 .btn-outline-primary:hover {
+    background-color: #e84f10 !important;
+    color: white !important;
+}
+
+.sec1,
+.sec3 {
+    height: 100vh;
+}
+
+.sec2 {
+    min-height: 100vh;
+    padding: auto auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec2 .col {
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec2 .row {
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec2 .container {
+    width: 80%;
+}
+
+.sec2 .u-light {
+    height: 100%;
+    width: 100%;
+    background-color: #9abddb;
+    border: #9abddb;
+    border-radius: 20px !important;
+    margin: 0 auto;
+    position: relative;
+}
+
+.sec2 .u-dark {
+    height: 100%;
+    width: 100%;
+    background-color: #233e56;
+    border: #233e56;
+    border-radius: 20px !important;
+    margin: 0 auto;
+    position: relative;
+}
+
+.sec2 .icon {
+    height: 100px;
+    width: 100px;
+    background-color: #e84f10;
+    border: #e84f10;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon img {
+    filter: brightness(0) invert(1);
+}
+
+.sec2 .card-header,
+.sec2 .card-footer {
+    background-color: transparent;
+    border: transparent;
+}
+
+/*--------------------------------------------------------------
+# Carte
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Recherche
+--------------------------------------------------------------*/
+.search {
+    background-color: #1e2d4d;
+}
+
+.search .card {
+    color: #233e56;
+}
+
+.search-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 80%;
+    min-height: 80vh;
+    margin: 0 auto;
+    position: relative;
+}
+
+.advanced {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.btn-secondary,
+.btn-secondary:focus,
+.btn-secondary:active {
+    color: #fff;
+    background-color: #00838f !important;
+    border-color: #00838f !important;
+    box-shadow: none;
+}
+
+.advanced {
+    color: #00838f !important;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: 1px solid #00838f;
+}
+
+.search .card-header {
+    color: #233e56;
+    height: 70px;
+}
+
+/*--------------------------------------------------------------
+# Publier
+--------------------------------------------------------------*/
+.u-publier {
+    background-color: #9abddb;
+}
+
+.card-container {
+    width: 80%;
+    min-height: 100vh;
+    margin: 0 auto;
+    position: relative;
+}
+
+.card-container .card {
+    border: none;
+}
+
+.card-container .card-header {
+    background-color: #233e56;
+}
+
+.u-publier .nav-link {
+    color: white;
+}
+
+.nav-tabs .nav-link:hover {
+    color: #00838f;
+}
+
+.u-publier .btn-primary {
+    background-color: #00838f !important;
+    border-color: #00838f !important;
+}
+
+/*--------------------------------------------------------------
+# Gestion
+--------------------------------------------------------------*/
+.container-fluid {
+    min-height: 100vh;
+    background-color: #9abddb;
+}
+
+.u-gestion .btn-primary {
+    background-color: #00838f !important;
+    border-color: #00838f !important;
+}
+
+/*--------------------------------------------------------------
+# Réseau TALien
+--------------------------------------------------------------*/
+.reseau {
+    min-height: 100%;
+}
+
+.reseau .card {
+    background-color: transparent;
+    border: transparent;
+    margin: 0 auto;
+    position: relative;
+}
+
+/*--------------------------------------------------------------
+# À Propos
+--------------------------------------------------------------*/
+.about-container {
+    background-color: #1e2d4d;
+}
+
+.col-md-12 {
+    color: white;
+}
+
+.about-container .card {
+    border: transparent;
+    border-bottom: transparent;
+}
+
+.about-container .card-header {
+    border-bottom: transparent;
+    background-color: #00838f;
+}
+
+.card .btn-link {
+    color: white;
+    text-decoration: none;
+}
+
+.card .card-body {
+    color: #1e2d4d;
+}
+
+.card .btn-link:hover {
+    color: #1e2d4d;
+}
+
+.about-container {
+    min-height: 100vh;
+}
+
+.about-container .contact-container {
+    width: 98%;
+}
+
+.contact-container .card {
+    color: #1e2d4d;
+}
+
+.contact-container .btn-primary {
+    background-color: #00838f !important;
+    border-color: #00838f !important;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+footer {
+    background-color: #233e56;
+    width: 100%;
+    margin: 0px auto;
+    padding: 50px 0px;
+}

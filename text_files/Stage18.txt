@@ -1,0 +1,106 @@
+Titre: Mesurer la complexité d'un texte en français
+Date: 2023-01-03
+Organisme: MoDyCo
+Lieu: Nanterre
+
+
+=================================
+Mesurer la complexité d'un texte en français =================================
+Mots-clé : complexité, compréhension, lisibilité, chaîne d'extraction, corrélation entre variables, explicabilité
+
+# Contexte sociétal et scientifique
+Avec le développement des nouvelles technologies, et en particulier d'Internet, les enfants en âge de lire sont confrontés à de plus en plus de documents écrits dans leur quotidien et ces derniers peuvent leurs poser des difficultés de compréhension quelle que soit la thématique dont ils relèvent. Des recherches menées sur les capacités de compréhension de textes chez les enfants ont par exemple mis en évidence le rôle prépondérant que jouent les informations d'ordre émotionnel ou d'ordre temporel présentes dans les textes qui, selon leur complexité, peuvent amener à des difficultés de compréhension (Blanc et Quenette 2017, Creissen et Blanc 2017, Tartas 2010). A côté de ces critères proprement sémantiques, il est bien sûr important de tenir compte de difficultés qui peuvent par exemple venir également de critères d'ordre syntaxique (e.g. présence de subordonnées) (cf. relevé de critères linguistiques variés dans (Gala et al. 2018)).
+
+C'est la raison d'être du développement, dans le cadre du projet
+TextToKids (http://texttokids.irisa.fr/), d'une chaîne d'analyse de la complexité de textes. Cette chaîne permet de calculer un grand nombre de descripteurs linguistiques en vue de permettre une évaluation de la complexité ou de la difficulté d'un texte (Battistelli et al. 2022).
+Elle permet en outre de calculer un age (ou une tranche d'âge) considéré(e) comme préférentiel(le) pour accéder à la compréhension optimale d'un texte selon des critères décrits dans (Rahman et al.
+2021).
+
+Parallèlement au développement de cette chaîne, une expérimentation a été menée auprès de plusieurs classes d'élèves en école primaire dans la région Sud durant l'année 2022. Les expérimentateurs ont donné à lire à ces élèves des textes de types différents (3 textes encyclopédiques, 3 textes journalistiques et 3 textes de fiction).
+11 questions de compréhension ont ensuite été soumises aux élèves.
+8 de ces questions portaient sur des critères de temporalité ou d'émotions exprimés au sein des textes (ex. de questions : telle action a-t-elle eu lieu avant telle autre action ?, tel personnage est-il inquiet devant l'attitude de tel autre personnage ?). 2 de ces questions portaient sur des critères sémantiques autres, appelés
+Macro. Une des questions enfin portait sur la capacité des élèves à reconnaître spontanément le type de texte. L'ensemble de ces 11
+questions ont donné lieu à des réponses correctes ou incorrectes qui ont été répertoriées par les expérimentateurs.
+
+#Objectifs principaux du stage
+On s'intéressera aux données de l'expérimentation décrite ci-avant.
+Deux objectifs principaux seront à distinguer :
+
+1.  Calculs de corrélation
+On cherchera à établir des corrélations entre les différentes variables mobilisées dans l'expérimentation : (1) qu'elles aient été explicitement mobilisées dans l'expérimentation : soit par exemple celles de Classe (valeurs : CE2, CM1, CM2), de Type de texte (valeurs : ENCYCLOPEDIE, JOURNAL INFO, ROMAN), de Score (valeurs : correct, incorrect), de Nbr_bonnes_Rep (valeurs numériques), ou de Type de question (valeurs : EMOTION, TEMPS, MACRO, TYPE_TEXT), (2) ou non explicitement mobilisées : soit par exemple celles de Nombre d'adverbiaux calendaires itératifs, de Nombre d'émotions complexes,
+Nombre de Subordonnées en QUE.
+Cela suppose d'analyser les résultats de l'expérimentation en fonction de variables mobilisées dans la chaîne d'extraction de TextToKids. On cherchera ici à creuser tout particulièrement l'effet des valeurs des variables de nature temporelle et émotionnelle sur la compréhension (temps verbaux, adverbiaux temporels, connecteurs temporels, émotions complexes vs. de base) en s'appuyant sur la littérature psycho-linguistique sur le sujet .
+
+2. Comparaison des indices calculés par la chaîne TextToKids avec les indices proposés par Korpus
+Le package Korpus de R fournit les méthodes (au sens de la programmation objet) pour appliquer différentes mesures dites de lisibilité d'un texte, issues de travaux déjà anciens en psychologie appliquée (François et Fairon 2013, Spiezia 2015). Ces mesures sont constituées sur la base de la prise en compte d'ensembles de caractéristiques essentiellement morpho-syntaxiques. On calculera sur les données issues de TextToKids les indices de complexité proposés par le package Korpus et on les comparera aux indices de complexité proposés par TextToKids. Ces résultats comparatifs seront visualisés sous la forme de diagrammes (diagrammes à bâtons, radars, etc.) en utilisant les possibilités graphiques du package ggplot2 de R,
+
+Ce stage sera décomposé en plusieurs  étapes menées à l'aide du logiciel R.
+
+#Livrables
+1.  Rapport sur le calcul des indices de corrélation entre différentes
+    variables exploitées par la  la chaîne TextoKids. Ce rapport
+    inclura les scripts R et une interprétation des résultats.
+2.  Rapport sur la comparaison des indices calculés par la chaîne
+    TextToKids avec les indices proposés par Korpus. Ce rapport inclura
+    les scripts R, les résultats sous forme de graphiques et une
+    interprétation des résultats.
+3.  Un état de l'art sur lisibilité et complexité pour le français.
+
+
+#Logiciels et packages
+
+Chaîne TextToKids : http://vheborto-corliapi.inist.fr:8984/
+Package Korpus : (https://search.r-project.org/CRAN/refmans/koRpus/html/readability-methods.html)
+Package ggplot2 : https://ggplot2.tidyverse.org/
+
+
+#Bibliographie indicative
+
+N. Gala, T. François, L. Javourey-Drevet, JC Ziegler (2018) - « La simplification de textes, une aide à l'apprentissage de la lecture »,
+Langue française, 123-131
+
+D. Battistelli, A. Etienne, R. Rahman, Charles Teissèdre, Gwénolé
+Lecorvé (2020) - "Une chaîne de traitements pour appréhender la complexité des textes pour enfants d'un point de vue linguistique et psycho-linguistique". In Actes TALN'22 (Traitement automatique du langage naturel 2022)
+
+Blanc, N., & Quenette, G. (2017). La production d'inférences émotionnelles entre 8 et 10 ans: quelle méthodologie pour quels résultats?. Enfance, (4), 503-511.
+
+Creissen, S., & Blanc, N. (2017). Quelle représentation des différentes facettes de la dimension émotionnelle d'une histoire entre l'âge de 6
+et 10 ans? Apports d'une étude multimédia. Psychologie française, 62(3), 263-277.
+
+François T. et Fairon C. (2013) - Les apports du TAL à la lisibilité du français langue étrangère, "Traitement automatique du langage" -
+Vol. 54, no. 1, p. 1-29 (2013)
+
+N. Gala, T. François, L. Javourey-Drevet, JC Ziegler (2018) - « L
+asimplification de textes, une aide à l'apprentissage de la lec ture », Langue française, 123-131
+
+R. Rahman, G. Lecorvé, A. Etienne, D. Battistelli, Nicolas Béchet,
+Jonathan Chevelu (2020) - "Mama/Papa, Is this Text for Me?". in Actes
+COLING'20 (28th International Conference on Computational Linguistics), 8-13 décembre 2020, Barcelone, Espagne
+
+Spiezia, R. (2015). V. La lisibilité : question de vocabulaire. Dans :
+Giovanni Dotoli éd., La lisibilité du dictionnaire (pp. 79-91). Paris:
+Hermann
+
+Tartas, V. (2010). Le développement de notions temporelles par l'enfant. Développements, 4, 17-26.
+
+
+# Profil recherché
+
+-   Niveau bac +4/+5 en Traitement Automatique des Langues ou
+    Linguistique de corpus
+-   Bon niveau en R (ou logiciel apparenté)
+-   Bon niveau en Python
+-   Anglais lu et écrit
+
+# Informations sur le stage
+
+-   Lieu : Université Paris Nanterre, Laboratoire MoDyCo (UMR 7114),
+    possibilité d'un stage en partie à distance
+-   Gratification : selon les règles en vigueur
+-   Durée du stage : 4 à 5 mois à compter de février - mars 2023
+-   Contact :
+    -   Delphine Battistelli : del.battistelli@gmail.com
+    -   Jean-Luc Minel : jminel@parisnanterre.fr
+
+-   Envoyer CV, lettre de motivation, relevés de notes M1/M2
+

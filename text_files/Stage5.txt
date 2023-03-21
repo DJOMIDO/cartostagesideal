@@ -1,0 +1,77 @@
+Titre: Exploiting the structure of HTML to learn document representation
+Date: 2023-01-18
+Organisme: Qwant & ISIR
+Lieu: Paris
+
+
+ # Exploiting the structure of HTML to learn document representations
+
+## Context
+Information Retrieval (IR) models aim at predicting which documents within a potentially huge collection are relevant to a given user information need (usually a query). Current models of Information
+Retrieval, like in many other fields, are nowadays based on transformer architectures.
+
+More precisely, two types of model are now prevalent: (1) representation-based techniques, where the document and the query representations are computed separately (dense or sparse vector) before using a matching scoring function (e.g. inner product); (2) interaction-based techniques, where both the query and the document content are used to compute a relevance score.
+
+Current research focuses on how to (pre)train the models and the problem of modeling the task better, i.e., how to compute the representation of the document and/or the query, or of both the query and document. Improving the quality of the representation is key to building successful (transformer) models for IR, as shown in the best-performing models to date [Gao and Callan, 2021].
+
+## Objectives
+The internship will explore new ways to compute the representation of (Web) documents, by considering various aspects of Web documents, i.e.
+both their internal (DOM) and external (links) structure in the context of Information Retrieval.
+
+In the context of Web search, when dealing with web pages, the Document
+Object Model (DOM) tree represents the document's structure [Gupta et al., 2003].  Recent work on transformer-based models shows that this structure can be encoded explicitly [Ainslie et al., 2020] or implicitly [Aghajanyan et al., 2021] in the model. One recent approach [Guo et al., 2022] proposes to separate the encoding of the text content from the node structure, before using both representations as a basis for dense ranking.
+
+The goals of this internship will be to study how the HTML structure can be leveraged to (1) build better document representations by exploiting the inner HTML structure and/or the hyperlinks between the documents; and (2) provide a better pre-training (i.e. without the supervision of query paired with relevant documents).
+
+The intern is encouraged to develop their own ideas, and to publish in (inter)national venues and/or to participate in international evaluation campaigns (such as TREC).
+
+Organization
+The internship will take place at the Qwant offices with visits to ISIR
+(remote work is also possible). The internship is supervised by
+Benjamin Piwowarski from ISIR, and Lara Perinetti and Romain Deveaud from Qwant.
+
+The intern will potentially work with the following tools/technologies:
+-   Deep Learning libraries (PyTorch, TensorFlow, Jax/Flax, Huggingface
+    ecosystem, etc.)
+-   Python
+-   Search engine tools (https://github.com/vespa-engine/pyvespa)
+-   Git version control
+-   Jupyter Environment
+
+Qwant will provide the intern a laptop and access to a remote compute server with GPU capabilities.
+
+Candidates can send their questions, as well as their resumes + motivation (a few lines) to l.perinetti@qwant.com, r.deveaud@qwant.com and benjamin@piwowarski.fr
+
+
+## References [Gao and Callan, 2021] L. Gao and J. Callan, "Unsupervised Corpus Aware
+    Language Model Pre-training for Dense Passage Retrieval,"
+    arXiv:2108.05540 [cs], Aug. 2021 [Online].
+    Available: http://arxiv.org/abs/2108.05540 .
+
+[Gupta et al., 2003] S. Gupta, G. Kaiser, D. Neistadt, and P. Grimm,
+    "DOM-based content extraction of HTML documents," in Proceedings of
+    the twelfth international conference on World Wide Web - WWW '03,
+    Budapest, Hungary, 2003, p. 207, doi: 10.1145/775152.775182 [Online].
+    Available: http://portal.acm.org/citation.cfm?doid=775152.775182 .
+
+[Ainslie et al., 2020] J. Ainslie et al., "ETC: Encoding Long and
+    Structured Inputs in Transformers," in Proceedings of the 2020
+    Conference on Empirical Methods in Natural Language Processing
+    (EMNLP), Online, 2020, pp. 268-284,
+    doi: 10.18653/v1/2020.emnlp-main.19 [Online].
+    Available: https://www.aclweb.org/anthology/2020.emnlp-main.19 .
+
+[Aghajanyan et al., 2021] Aghajanyan, Armen, Dmytro Okhonko, Mike
+    Lewis, Mandar Joshi, Hu Xu, Gargi Ghosh, and Luke Zettlemoyer.
+    "HTLM: Hyper-Text Pre-Training and Prompting of Language Models."
+    ArXiv:2107.06955 [Cs], July 14, 2021 [Online].
+    Available: http://arxiv.org/abs/2107.06955.
+
+[Guo et al., 2022] Yu Guo, Zhengyi Ma, Jiaxin Mao, Hongjin Qian,
+    Xinyu Zhang, Hao Jiang, Zhao Cao, and Zhicheng Dou. 2022.
+    Webformer: Pre-training with Web Pages for Information Retrieval.
+    In Proceedings of the 45th International ACM SIGIR Conference on
+    Research and Development in Information Retrieval (SIGIR '22).
+    Association for Computing Machinery, New York, NY, USA, 1502-1512.
+    https://doi.org/10.1145/3477495.3532086
+

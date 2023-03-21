@@ -1,0 +1,45 @@
+Titre: Application des Réseaux de Neurones sur Graphes (Graph Neural Networks) au TAL (NLP)
+Date: 2023-01-03
+Organisme: EDF R&D
+Lieu: Palaiseau
+
+
+Titre : Application des Réseaux de Neurones sur Graphes (Graph Neural
+Networks) au TAL (NLP) - H/F
+
+*Contexte et objectifs*
+
+La R&D d'EDF (2000 chercheurs) a pour missions principales de contribuer à l'amélioration de la performance des unités opérationnelles du groupe EDF, d'identifier et de préparer les relais de croissance à moyen et long terme. Dans ce cadre, le département
+Services, Economie, Outils Innovants et IA (SEQUOIA) est un département pluridisciplinaire (sciences de l'ingénieur, sciences humaines et sociales) qui fournit un appui à l'élaboration et au portage des offres, des services et des outils de relation client aux directions opérationnelles du groupe EDF.  Au sein de ce département, ce stage sera rattaché au groupe « Statistiques et Outils d'Aide à la Décision » (SOAD) qui compte une vingtaine d'ingénieurs chercheurs spécialisés en
+Data Science.
+
+Les Réseaux de Neurones sur Graphes (Graph Neural Networks) sont utilisés pour représenter des données complexes dans des domaines variés comme le secteur médical, commercial, les réseaux sociaux, ou la chimie des matériaux. Ils permettent de comprendre des relations entre des entités, et d'en inférer des connaissances. Récemment les GNNs ont été exploités pour le Traitement Automatique du Langage, pour réaliser par exemple de la classification de documents ou du résumé automatique de texte. Notre équipe souhaite explorer le potentiel d'application des
+GNNs pour les métiers du groupe sur des cas d'utilisation relatifs aux données textuelles non structurées.
+
+
+*Etapes du stage :*
+
+-   Dresser un état de l'art des applications existantes des GNNs dans
+    le domaine du TAL.
+-   Identifier des cas d'application pertinents pour les métiers, en
+    collaboration avec l'équipe encadrante.
+-   Réaliser une expérimentation sur un cas d'application sélectionné.
+
+*Profil recherché :*
+
+-   Etudiant(e) en Master 1 ou 2 ou équivalent école d'ingénieur
+-   Compétences en Apprentissage Profond (Deep Learning)
+-   Bon niveau en Python
+-   Bon niveau de rédaction en français et en anglais
+-   Des compétences en Traitement Automatique du Langage Naturel (NLP)
+    seront appréciées
+
+Lieu : Groupe SOAD (Statistique et Outils d'Aide à la Décision), département SEQUOIA d'EDF Lab Paris-Saclay, 7 boulevard Gaspard Monge, 91120 Palaiseau
+
+Durée : 6 mois
+
+Début souhaité : mars 2023
+
+*Contact*
+
+Transmettre par mail un CV et une lettre de motivation à: meryl.bothua@edf.fr, sabrina.campano@edf.fr (Département SEQUOIA).  

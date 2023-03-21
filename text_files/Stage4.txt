@@ -1,0 +1,68 @@
+Titre: Typologie quantitative (2 stages)
+Date: 2023-01-23
+Organisme: Lacito / MoDyCo / LISN / INRIA
+Lieu: Île de France ou Nancy
+
+
+Le projet ANR Autogramm  (https://autogramm.github.io/) finance un sujet de thèse à pourvoir cette année, ainsi que des sujets de master.
+Les personnes intéressées peuvent contacter Sylvain Kahane skahane@parisnanterre.fr
+
+Sujets M2 en typologie quantitative
+-   rattachements possibles : Lacito (campus Villejuif) ou Modyco
+    (Université Paris Nanterre ) ou LISN (Université Paris Saclay) ou
+    Inria Grand Est (Nancy)
+
+Nous nous intéressons à l'extraction de descriptions grammaticales de langues à partir de corpus annotés de différentes façons : textes avec annotation morphosyntaxique, glose et traduction (Interlinear Glossed
+Text, voir la collection Pangloss https://pangloss.cnrs.fr), textes avec annotation syntaxique (voir le projet Universal Dependencies https://universaldependencies.org/). Dans ce sujet de master, nous proposons de partir d'une description linguistique et d'examiner comment les énoncés descriptifs (les "règles" grammaticales) peuvent être inférés à partir d'un corpus, en cherchant notamment le type d'annotation du corpus et le type de requête qui seraient nécessaires pour y parvenir Plusieurs sujets sont possibles selon la ressource dont on part.
+Sujet 1: partir d'une base de données typologique comme le WALS (Word
+    Atlas of Language Structures online, https://wals.info et voir pour
+    chaque trait comment y répondre à partir d'un corpus annoté, soit
+    en se basant sur des annotations existantes, soit en proposant de
+    nouvelles annotations.
+Sujet 2: partir d'une grammaire de référence d'une langue et voir pour
+    certaines propriétés comment les retrouver dans un corpus annoté.
+    Ce deuxième sujet devra être mené pour une langue pour laquelle un
+    corpus annoté en syntaxe (syntactic treebank) est disponible et
+    avec la collaboration d'un spécialiste de la langue. Il n'est pas
+    nécessaire que le candidat parle la langue étudiée, mais il devra
+    avoir un vrai intérêt pour la grammaire des langues.
+Le travail à partir de corpus permet d'obtenir des informations quantifiées (fréquence de telle ou telle construction), ce qui ouvre de nouvelles perspectives d'exploitation des données par rapport à des bases de données typologiques classiques comme le WALS (voir sujet de thèse plus bas).
+
+Sujet de thèse en typologie quantitative
+-   à démarrer entre maintenant et le 1er octobre (vous pouvez me
+    contacter si vous avez un M2 ou soutenez votre M2 à la fin du
+    semestre)
+-   financement pour 3 ans
+-   rattachement : Modyco, Université Paris Nanterre & CNRS
+
+Nous disposons aujourd'hui de bases de données, concernant plusieurs dizaines de langues, comprenant des corpus annotés selon un même principe, grâce notamment aux corpus annotés en glose interlinéaires (IGT, voir par ex. la collection Pangloss, http://pangloss.cnrs.fr/) ou avec le schéma d'annotation Universal Dependencies (UD, https://universaldependencies.org et sa variante
+SUD, https://surfacesyntacticud.github.io/). Ces bases de données permettent des études typologiques et présentent plusieurs avantages: les résultats obtenus sont basés directement sur des données primaires (des corpus) et pas des données secondaires (des grammaires écrites par des linguistes). (Ce n'est que partiellement vrai, car les résultats dépendent quand même des choix fait par un linguiste dans la sélection du corpus et son annotation; néanmoins ces choix sont visibles et peuvent être discutés.) les résultats sont reproductibles à partir du moment où les données sont librement accessibles ; la nature des données permet d'avoir des résultats quantitatifs : on ne dira pas qu'une langue est OV ou VO, mais qu'elle a tel pourcentage de constructions OV et on pourra observer directement sur les données de quels facteurs dépend la répartition entre OV et VO (Levshina 2019
+https://www.degruyter.com/view/journals/lity/23/3/article-p533.xml,
+Gerdes et al. 2019
+https://syntaxfest.github.io/syntaxfest19/proceedings/papers/paper_100.pdf,
+Futrell et al. 2015 https://aclanthology.org/W15-2112.pdf).
+(Voir également le site https://typometrics.elizia.net/#/.)
+
+L'objectif du sujet de thèse est de contribuer au développement de la typologie quantitative en participant à la construction d'une base de données quantitatives sur un grand nombre de langues typologiquement variées et en s'intéressant à l'exploitation d'un tel ensemble de données (Levshina 2022
+https://www.degruyter.com/document/doi/10.1515/lingty-2020-0118/html).
+L'originalité du projet repose sur le fait que nous travaillons sur des données quantitatives et non des traits catégoriels comme les bases de données typologiques existantes (voir notamment le Word Atlas of
+Language Structure online, https://wals.info/, qui donne accès à des données sur plus de 2500 langues).
+
+On pourra étudier les questions suivantes :
+Comment repérer des régularités cross-linguistiques, telles que des universaux implicationnels quantitatifs, à partir d'un ensemble de corpus de langues du monde (voir par exemple Gerdes et al. 2021
+https://www.glossa-journal.org/articles/10.5334/gjgl.764/?utm_source=TrendMD&utm_medium=cpc&utm_campaign=Glossa%253A_a_journal_of_general_lin guistics_TrendMD_0) ?
+Comment réaliser des inférences entre traits à valeurs quantitatives ?
+Quelles sont les informations quantitatives qui peuvent être extraites d'un corpus et qui sont utiles pour une étude typologique ?
+Quels sont les traits qui demandent une annotation préalable des données et quelle est la nature des annotations nécessaires ? (voir par exemple le cas des IGT pour les traits morphosyntaxiques et les treebanks pour l'ordre des mots)
+Comment dégager la signature typologique d'une langue à partir d'un corpus annoté et déterminer ce qui en fait sa particularité au sein d'un groupe de langues (voir Bickel & Nichols 2002
+http://www.autotyp.uzh.ch/download/canary.pdf et projet AutoTyp https://github.com/autotyp/autotyp-data/blob/master/readme.md)
+Comment prendre en compte le déséquilibre d'une base de données qui n'est pas représentative de la distribution des langues dans le monde, mais comprend une plus forte proportion de langues de certaines régions ou familles (langues indo-européennes, langues sémitiques, langues d'Asie de l'Est, etc.) au détriment d'autres régions ou familles (Papouasie-Nouvelle Guinée, Océanie, Afrique sub-saharienne, langues amérindiennes, langues aborigènes) ? (voir Guzmán Naranjo & Becker 2022
+https://www.degruyter.com/document/doi/10.1515/lingty-2021-0002/html).
+Comment résoudre la question de la commensurabilité des catégories utilisées dans la description des différentes langues ?
+Comment vérifier la cohérence des données ? Cette question peut être abordée en étudiant la cohérence de banques d'arbres d'une même langue ou d'une même famille de langues.
+Comment détecter la présence d'aberrations dans certaines banques d'arbres ? (choix de catégorisation non conformes au schéma universel, par exemple attribution de la relation sujet dans les langues ergatives, utilisation de la catégorie ADJ dans les langues sans adjectifs réels, etc.)
+Comment visualiser des données quantitatives multidimensionnelles ?
+Les données linguistiques posent de nombreux défis de ce point de vue.
+
+Le travail sera mené en collaboration avec les membres du projet ANR
+Autogramm (https://autogramm.github.io/), chercheurs en linguistique de terrain, typologie, linguistique formelle et traitement automatique des langues. Il pourra mener, avec l'aide d'ingénieurs, à la constitution d'une base de données typométrique accompagnée d'outils d'interrogation et de visualisation des données.

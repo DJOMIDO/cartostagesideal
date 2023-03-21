@@ -1,0 +1,28 @@
+Titre: Création de modèles neuronaux à base de graphes pour les BOTS
+Date: 2023-01-09
+Organisme: Orange
+Lieu: Lannion
+
+
+Stage à Orange Lannion :
+Création des modèles neuronaux à base des graphes pour les BOTS
+
+Profil
+Vous êtes étudiant.e en master 2, et vous vous retrouvez dans le profil suivant, en terme de compétences et connaissances :
+
+Compétences requises
+
+-   Vous avez des connaissances en statistique et informatique.
+-   Des connaissances en Python sont impératives.
+-   Des connaissances en apprentissage statistique sont requises (deep
+    learning).
+-   Vous étés familiarisés avec les outils PyTorch (de préférence) ou
+    TensorFlow
+
+Contexte:
+La compréhension contextualisée dans l'historique du dialogue, correspond à l'état de l'utilisateur tel que perçu par le système et s'appelle « Dialogue State Tracking (DST) » en anglais ou suivi de l'état du dialogue.  Plusieurs approches ont été proposées dans l'état de l'art pour résoudre ce problème.  Néanmoins, la plupart des modèles de l'état de l'art présupposent que l'état du dialogue peut être décrit par un ensemble de concepts indépendants et leur valeur associée. Par exemple, le système peut croire que l'utilisateur souhaite la valeur « pas chère » pour le concept « prix » à un moment donné. Toutefois, les applications plus réalistes présentent naturellement une dépendance entre concepts : par exemple, le prix et la localisation d'un restaurant sont dépendants car certains quartiers sont plus chers.
+Pour traiter ces dépendances nous avons défini une représentation plus riche à base des graphes RDF. Nous voudrions créer des modèles de DST
+qui génèrent ce graphe. Une première possibilité est de suivre les travaux proposes, par exemple en utilisant le Graph Attention Networks.
+Pour cela nous utiliserons les données de dialogues avec nos annotations en RDF. Nous voudrions aussi explorer, si possible, l'impact d'un état de dialogue structuré sur le module d'Apprentissage de la Politique de Dialogue qui doit décider l'action du système la plus approprié à partir de l'état du dialogue. Pour cela on peut adapter les modèles existants. Des exemples des actions possibles peuvent comprendre : demander de nouvelles valeurs, confirmer les valeurs déjà remplies, rectifier, ou bien fournir des informations.
+
+Plus de détails: https://orange.jobs/jobs/v3/offers/120747?lang=fr 

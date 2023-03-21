@@ -1,0 +1,51 @@
+Titre: Méthodes d'évaluation pour le résumé automatique de document
+Date: 2023-01-03
+Organisme: EDF R&D
+Lieu: Palaiseau
+
+
+
+
+Titre : Méthodes d'évaluation pour le résumé automatique de document
+H/F
+
+*Contexte et objectifs*
+
+La R&D d'EDF (2000 chercheurs) a pour missions principales de contribuer à l'amélioration de la performance des unités opérationnelles du groupe EDF, d'identifier et de préparer les relais de croissance à moyen et long terme. Dans ce cadre, le département
+Services, Economie, Outils Innovants et IA (SEQUOIA) est un département pluridisciplinaire (sciences de l'ingénieur, sciences humaines et sociales) qui fournit un appui à l'élaboration et au portage des offres, des services et des outils de relation client aux directions opérationnelles du groupe EDF.  Au sein de ce département, ce stage sera rattaché au groupe « Statistiques et Outils d'Aide à la
+Décision » (SOAD) qui compte une vingtaine d'ingénieurs chercheurs spécialisés en Data Science.
+
+Les modèles d'Intelligence Artificielle pour les données textuelles et orales ont connu des avancées techniques importantes depuis la création de l'architecture « Transformer » en 2017 (Vaswani et al., 2017), un réseau de neurones profond. Plusieurs cas d'usages de ces modèles ont été explorés à EDF R&D, comme le résumé automatique de document long.
+Evaluer la qualité des résumés produits à partir de textes longs est un processus long et complexe. Pour cette raison, des évaluations automatiques avec des mesures quantitatives telles que le score ROUGE
+sont fréquemment utilisées. Ces méthodes montrent toutefois des limites sur la compréhension des erreurs commises par le modèle. Ce sujet de stage a vocation à étudier des méthodes d'évaluation automatiques de résumé permettant de rendre compte de phénomènes plus complexes, comme les hallucinations (contenu généré non présent dans le texte d'origine), ou des reformulations (contenu généré fidèle au texte d'origine, formulé différemment).
+
+
+*Etapes du stage :*
+
+-   Dresser un état de l'art des méthodes d'évaluation de résumé dans
+    le domaine du TAL
+-   Sélectionner des méthodes d'évaluation existantes et/ou proposer
+    une nouvelle méthode
+-   Implémenter et tester la(les) méthode(s) d'évaluation sur des
+    résumés générés automatiquement
+
+*Profil recherché :*
+
+-   Etudiant(e) en Master 1 ou 2 ou équivalent école d'ingénieur
+-   Compétences en Traitement Automatique du Langage Naturel (NLP)
+-   Compétences en Apprentissage Automatique (Machine Learning)
+-   Bon niveau en Python
+-   Bon niveau de rédaction en français et en anglais
+-   Des compétences en Apprentissage Profond (Deep Learning) seront
+    appréciées
+-   Curiosité scientifique, intér=EAt pour la recherche
+
+Lieu : Groupe SOAD (Statistique et Outils d'Aide à la Décision), département SEQUOIA d'EDF Lab Paris-Saclay, 7 boulevard Gaspard Monge, 91120 Palaiseau
+
+Durée : 6 mois
+
+Début souhaité : mars 2023
+
+*Contact*
+
+Transmettre par mail un CV et une lettre de motivation à: meryl.bothua@edf.fr, sabrina.campano@edf.fr (Département SEQUOIA).

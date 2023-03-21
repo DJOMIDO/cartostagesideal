@@ -1,0 +1,62 @@
+Titre: Gestion des données et évaluation pour le TAL/NLP
+Date: 2023-01-03
+Organisme: DGA Maîtrise de l'information
+Lieu: Bruz
+
+
+La Direction Générale de l'Armement (DGA, direction du Ministère des
+Armées) recrute un stagiaire en Extraction d'Information, descriptif de l'offre ci-dessous. N'hésitez pas à nous contacter pour plus de renseignements.
+
+Intitulé du poste : Stage ingénieur.e gestion des données et évaluation pour le TAL/NLP
+
+Domaine(s) : INFORMATIQUE
+
+Sous-domaine(s) : Intelligence artificielle
+
+Niveau(x) d'étude requis : Bac +5 et plus / Bac +4
+
+Diplôme(s) préparé(s) : Ingénieur ou M2 Expérience en TAL et en IA.
+
+Compétences : Programmation Python, script shell Unix et langages de bases de données (tels que : SQL, NoSQL, MongoDB...). Compétences en TAL
+(connaissance des tâches majeures du domaine et des approches pertinentes pour les résoudre) et appétence pour les problématiques évaluatives. Autonomie et ingéniosité. Apprécie le travail en équipe.
+Des compétences en analyse de données (statistiques descriptives) et data-visualisation sont appréciables, de même que des connaissances sur les API de type REST.
+
+Durée : 6 mois
+
+Organisme : Direction générale de l'armement
+
+Localisation : BRUZ
+
+Gratification/Rémunération : Oui
+
+Restauration : Oui, mais au frais du candidat avec une subvention
+
+Logement : Non
+
+
+Description de la mission
+
+Le/la stagiaire intègre une équipe technique spécialisée en traitement automatique du langage écrit et parlé, implantée sur le site de DGA-MI
+à Bruz, près de Rennes. Pour mener à bien ses activités l'équipe a besoin de disposer de moyens intégrant d'une part des capacités de capitalisation, de gestion et d'exploitation de données (corpus) servant au développement et au test de systèmes de TAL et d'autre part d'outils d'analyse de données et d'évaluation couvrant un grand nombre de tâches de traitement des données écrites et parlées. Ces moyens sont actuellement à optimiser et à intégrer dans un contexte d'évolution de nos méthodes et de nos outils de travail. Ils doivent par ailleurs être maintenus de manière à suivre l'évolution de l'état de l'art, tant en matière d'approches pour les systèmes de TAL que de métriques et de standards d'évaluation. L'objectif de ce stage est de proposer et de mettre en oeuvre des outils de gestion des données TAL et d'évaluation de datasets et de résultats de systèmes de TAL répondant à des enjeux métiers, techniques et scientifiques forts. Les travaux de stage pourront utilement se dérouler selon les 4 étapes suivantes :
+
+    1.  Réalisation d'un état de l'art sur l'évaluation pour le TAL
+        (méthodes, outils, métriques...) ;
+    2.  Implémentation et adaptation d'un framework open-source
+        pour la gestion de données ;
+    3.  Test d'un outil open-source d'évaluation des résultats de
+        tâche en TAL ;
+    4.  Préconisations et implémentation ou adaptation d'un
+        outil d'évaluation pour répondre au besoin métier.
+
+Les choix des outils et des méthodes seront définis en coordination avec les membres de l'équipe, et ces travaux s'appuient sur des jeux de données mis à disposition du ou de la stagiaire.
+
+
+Description de la structure d'accueil
+
+DGA Maîtrise de l'information Bruz (près de Rennes) est responsable de la conception, de l'acquisition et de l'évaluation des systèmes qui équipent les forces Armées. Nos experts techniques travaillent dans les domaines innovants tels que les systèmes d'information et de communication, la cybersécurité, l'Intelligence Artificielle, la survivabilité des systèmes, la navigation, la guerre électronique et les systèmes de missiles.
+
+Adresse
+DGA MAÎTRISE DE L'INFORMATION BP 735170 BRUZ
+
+*Candidature*
+Candidature (CV en français) à soumettre à nihel.kooli@intradef.gouv.fr 

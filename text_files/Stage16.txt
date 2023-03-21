@@ -1,0 +1,72 @@
+Titre: Extraction d’informations dans des documents de renseignement ouvert
+Date: 2023-01-03
+Organisme: DGA Maîtrise de l'information
+Lieu: Bruz
+
+
+Intitulé du poste : Extraction d'informations dans des documents de renseignement ouvert
+
+Domaine(s) : INFORMATIQUE
+
+Sous-domaine(s) : Intelligence artificielle
+
+Niveau(x) d'étude requis : Bac +5 et plus / Bac +4
+
+Diplôme(s) préparé(s) : Ingénieur ou M2 Expérience en TAL et en IA.
+
+Maîtrise en programmation Python et du framework TensorFlow ou PyTorch.
+Aisance avec l'environnement Linux et le script shell. Autonomie et force de proposition. Apprécie le travail en équipe. Des connaissances sur les API de type REST sont appréciables.
+
+Durée : 6 mois
+
+Organisme : Direction générale de l'armement
+
+Localisation : BRUZ
+
+Gratification/Rémunération : Oui
+
+Restauration : Oui, mais au frais du candidat avec une subvention
+
+Logement : Non
+
+
+Description de la mission
+
+L'objectif de ce stage consiste à adapter et évaluer les modèles existants de l'état de l'art pour extraire les entités nommées dans des documents textuels en lien avec le renseignement d'origine source ouverte. Le corpus analysé pourra par exemple être la base publique
+Renseignor.
+
+Les travaux porteront principalement sur les tâches suivantes :
+
+-   Faire un état de l'art sur les méthodes récentes en reconnaissance
+    d'entités nommées ;
+-   Prendre en main / adapter un outil d'annotation manuelle
+    multi-utilisateurs ;
+-   Contribuer à la mise en place d'une petite campagne
+    d'annotation pour construire un corpus annoté ;
+-   Analyser statistiquement les spécificités du corpus d'étude ;
+-   Évaluer les approches les plus pertinentes de l'état de l'art en
+    REN sur le corpus annoté en se basant sur les métriques standards
+    pour cette tâche ;
+-   Proposer une approche de REN adaptée au corpus ;
+-   Si le temps le permet, étendre l'approche proposée (nouveau corpus,
+    nouvelle langue, tâche aval...).
+
+Les choix des outils et des méthodes seront définis en coordination avec les membres de l'équipe.
+
+La mission première de la Direction Générale de l'Armement est de fournir aux armées et aux services du ministère des armées les systèmes et outils nécessaires à leurs missions. Le centre Maîtrise de l'Information (DGA-MI) assure l'expertise technique en appui de la maîtrise d'ouvrage des systèmes développés par l'industrie pour les armées ou les services du ministère des armées.
+
+Le/la stagiaire intègre une équipe technique spécialisée en traitement automatique du langage écrit et parlé, implantée sur le site de DGA-MI
+à Bruz, près de Rennes.
+
+La Reconnaissance d'Entités Nommées (REN) est une tâche fondamentale en extraction d'information qui consiste à extraire des entités dans un texte donné (personnes, localisations, organisations, etc.). Bien qu'il s'agisse d'une tâche classique du domaine du TAL, la REN reste un défi et présente encore des difficultés non résolues. Ces difficultés sont souvent liées aux types d'entités à extraire, à la nature du texte et aux spécificités des énoncés linguistiques. Dans le cadre de ce stage, il s'agit de d'étudier cette tâche pour des documents spécifiques au domaine du renseignement.
+
+
+Description de la structure d'accueil
+
+DGA Maîtrise de l'information Bruz (près de Rennes) est responsable de la conception, de l'acquisition et de l'évaluation des systèmes qui équipent les forces Armées. Nos experts techniques travaillent dans les domaines innovants tels que les systèmes d'information et de communication, la cybersécurité, l'Intelligence Artificielle, la survivabilité des systèmes, la navigation, la guerre électronique et les systèmes de missiles.
+
+Adresse
+DGA MAÎTRISE DE L'INFORMATION BP 735170 BRUZ
+
+*Candidature*
+Candidature (CV en français) à soumettre à dga-mi.stage.fct@intradef.gouv.fr en indiquant en objet "*Candidature offre réf STG/DGA/6669*".

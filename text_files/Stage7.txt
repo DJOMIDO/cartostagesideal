@@ -1,0 +1,91 @@
+Titre: Data Scientist NLP
+Date: 2023-01-16
+Organisme: Sense4data
+Lieu: Bordeaux
+
+
+QUI NOUS SOMMES
+Sense4data est une société bordelaise créée en 2018; Jeune Entreprise
+Innovante (statut JEI), l'entreprise opère sur des problématiques de
+Recherche et Développement appliquées à l'Industrie dans le domaine de la donnée (IA, Data Science et Data Ingénierie). Notre société compte actuellement une quinzaine d'ingénieurs et de chercheurs en mathématiques, informatique et sciences de la donnée.
+
+CE QUE L'ON FAIT
+sense4data est une entreprise d'ingénierie et de services informatiques réparties en trois activités :
+
+-   AI Center of Excellence : Vente de services IA et IT pour les ETI
+    et grands groupes afin de fournir aux Directions des Systèmes
+    d'Informations, un haut niveau de R&D et des technologies Data
+    innovantes (machine learning, computer vision, NLP...).
+
+-   Software publishing : Conception de logiciels intégrant de
+    l'intelligence artificielle afin de répondre aux enjeux
+    technologiques, écologiques et éthiques.
+
+-   Technological Partnership : Intégration de modules technologiques
+    développés par nos chercheurs, ingénieurs pour les revendeurs de
+    solutions logicielles.
+
+
+POURQUOI NOUS REJOINDRE :
+Nous avons de vraies perspectives d'évolution de carrière à proposer à nos talents avec un management bienveillant et l'opportunité de pouvoir développer des projets novateurs et impactant. En tant que jeune société innovante, chaque individu participe au développement d'une culture inclusive et durable. Des activités sportives, du mécénat de compétences et du bénévolat sont organisés très régulièrement pour développer la cohésion de groupe mais aussi renforcer le développement personnel de tous nos collaborateurs.
+
+
+MISSIONS PRINCIPALES
+
+-   En tant que stagiaire Data Scientist NLP, vous aurez l'opportunité
+    de travailler sur des projets passionnants et de mettre en pratique
+    vos connaissances en matière de traitement du langage naturel.
+
+-   Vous serez chargé de participer à des projets de recherche et de
+    développement en traitement du langage naturel.
+
+-   Vous serez impliqué dans toutes les étapes du projet, de la
+    collecte et du traitement des données à la mise en oeuvre et à
+    l'évaluation des modèles.
+
+-   Vous travaillerez en mode Agile en étroite collaboration avec une
+    équipe de data scientists et data engineers expérimentés et aurez
+    l'occasion de développer vos compétences en NLP et en apprentissage
+    automatique.
+
+
+TON PROFIL
+
+-   Dernière année d'école d'ingénieur, Master 2 ou équivalent,
+    idéalement en traitement du langage naturel.
+-   Forte appétence en traitement du langage naturel (NLP)
+-   Bonnes connaissances en programmation Python
+-   Bonnes connaissances en statistiques et en apprentissage
+    automatique (NLTK, Spacy, BERT, Pandas, Numpy, Scikit-learn,
+    Pytorch, Tensorflow...)
+-   Connaissances des bases de données relationnelles (SQL)
+-   Versioning de code avec Git
+-   Compétences en communication
+-   Capacité à travailler de manière autonome et en travail en équipe
+
+ Les plus :
+
+-   Expérience en extraction d'informations et structuration de données
+-   Expérience en Topic Modeling et Sentiment Analysis.
+
+
+MODALITÉS
+
+-   Où : Bordeaux (télétravail partiel).
+-   Format : Conventionné.
+-   Durée : 6 mois.
+-   Quand : À partir de février 2022.
+-   Gratification : selon convention + TR + Moitié titre de transport.
+
+
+PROCESSUS - (réponse en 10 jours)
+
+halima.ahamadi@sense4data.com
+
+-   Call avec Halima - 15 min.
+-   Cas pratique à faire à la maison.
+-   2ème appel avec Halima accompagnée d'un membre d'équipe pour
+    pitcher ton use case.
+-   Débrief en interne.
+-   Bienvenue à Bord
+

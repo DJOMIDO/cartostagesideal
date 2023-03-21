@@ -1,0 +1,40 @@
+Titre: Linguistique de corpus et Humanités numériques
+Date: 2023-02-13
+Organisme: Centre Interlangues - TIL
+Lieu: Télétravail ou Dijon
+
+
+Centre Interlangues TIL - Université de Bourgogne (Dijon)
+
+Stage en linguistique de corpus. Humanités numériques
+
+Dans le cadre du projet de recherche PESACA (post-édition semiautomatique à partir du corpus agroalimentaire) du Centre
+Interlangues TIL de l'Université de Bourgogne, l'équipe recherche un stagiaire pour participer au traitement automatique du langage naturel.
+Le but du projet est d'améliorer la qualité des sorties de systèmes de traduction automatique neuronale en français langue de spécialité à travers l'entraînement d'un modèle de post-édition.
+La mission du stagiaire s'articule de la façon suivante :
+1.  L'exploration d'un corpus comparable (français/ anglais) en langue
+    de spécialité.
+2.  Le nettoyage et l'annotation du corpus (POS tagging + cadres
+    sémantiques).
+Ces spécifications sont non-exhaustives et pourront évoluer tout au long du stage.
+
+PROFIL : Niveau Master minimum en Linguistique informatique ou équivalent, spécialités Traitement Automatique du Langage, Traduction
+Automatique, Traitement Automatique du Langage Naturel, Linguistique
+Informatique.
+Le stagiaire devra faire preuve d'autonomie, de curiosité et d'esprit critique afin de mener sa mission à bien.
+Durée : stage de 3 à 6 mois. (à pourvoir dès que possible)
+Lieu : télétravail ou Dijon (21)
+
+Connaissances et/ ou intérêts pour :
+-   Logiciels : Python, OpenCV, Sketch Engine, AntConc.
+-   XML EAD, TXT, machine learning, BERT, framenet
+-   Linguistique de corpus. Traitement des langues. Représentation des
+    connaissances.
+-   Aisance en programmation.
+-   Manipulation de bases de données volumineuses.
+
+Envoyez votre candidature à
+Luz MARTINEZ - Luz.martinez-villermosa@u-bourgogne.fr
+MCF en Langues Étrangères Appliquées. UFR Langues et Communication.
+Université de Bourgogne.
+EA 4182 Centre Interlangues - Texte, Image, Langage 

@@ -1,0 +1,84 @@
+Titre: Constitution de ressources et étude de la morphologie lexicale du créole guadeloupéen
+Date: 2023-01-11
+Organisme: MoDyCo
+Lieu: Nanterre
+
+
+Constitution de ressources et étude de la morphologie lexicale du créole guadeloupéen =======================================================================
+
+Contacts :
+
+-   Florence Villoing (villoing@parisnanterre.fr) MoDyCo,
+    (U. Paris Nanterre)
+-   Loïc Grobol (lgrobol@parisnanterre.fr) MoDyCo,
+    (U. Paris Nanterre) et Lattice (ENS)
+
+
+## Contexte
+
+Le laboratoire Modèles, Dynamiques, Corpus de l'Université Paris
+Nanterre propose un stage dans le cadre du projet ANR Autogramm (https://autogramm.github.io). L'objectif de ce stage est de constituer à partir de ressources existantes (corpus hétérogènes et lexiques) un corpus du créole guadeloupéen annoté morphosyntaxiquement et d'exploiter ce corpus afin d'étudier systématiquement la morphologie lexicale de cette langue.
+
+
+## Travail à réaliser
+
+-   Rassembler et uniformiser des corpus existants du créole
+    guadeloupéen issus de diverses sources et formats
+-   Annotation en parties du discours à l'aide de lexiques et/ou
+    d'étiqueteurs automatiques
+-   Appariement automatique de formes dérivées (à minima noms et
+    verbes) sur le modèle de la base VerNom (Missud, Amsili et
+    Villoing, 2020).
+-   Décomposition morphologique automatique des dérivés à partir des
+    paires et exploitation (Villoing et Deglas 2016, 2018)
+-   En fonction du temps et des ressources disponibles : annotation
+    semi-automatique en dépendances syntaxiques.
+
+## Profil recherché
+
+Le ou la candidate est un·e étudiant·e de master (M1 ou M2) en TAL. On attend comme compétences :
+
+-   Manipulation de corpus informatiques
+-   Programmation (Python)
+-   Usage et implémentation d'outils TAL
+-   Des compétences linguistiques dans un créole à base française
+    serait un plus, mais n'est pas obligatoire
+
+## Lieu, durée, rémunération
+
+-   Temps plein selon l'indice en vigueur (environ 593¤/mois)
+-   3 à 4 mois
+-   Stage en présentiel au Laboratoire MoDyCo, UMR 7114, 200 avenue de
+    la république, Nanterre
+-   Début de stage à négocier avec la personne sélectionnée
+    (mi-mars 2023 au plus tard).
+
+## Contact - Dépôts de candidature
+
+Dépôt des candidatures par courrier électronique auprès de Loïc Grobol et Florence Villoing, avant le 30 janvier 2023, délai de rigueur. Merci de déposer :
+
+-   Un CV détaillé de vos activités passées
+-   Une lettre de motivation
+-   Vos relevés de notes des deux dernières années d'études
+
+Le cas échéant une lecture critique d'article scientifique pourra être demandée pour la sélection.
+
+## Références
+
+-   Alice Missud, Pascal Amsili, Florence Villoing. VerNom : une base
+    de paires morphologiques acquise sur très gros corpus. 6e
+    conférence conjointe Journées d'Études sur la Parole
+    (JEP, 33e édition), Traitement Automatique des Langues Naturelles
+    (TALN, 27e édition), Rencontre des Étudiants Chercheurs en
+    Informatique pour le Traitement Automatique des Langues (RÉCITAL,
+    22e édition). Volume 2 : Traitement Automatique des Langues
+    Naturelles, 2020, Nancy, France. pp.305-313.
+-   Florence Villoing, Maxime Deglas. La suffixation en -asyon et en
+    -é en créole guadeloupéen : deux cas de réanalyse morphologiques du
+    français. Etudes créoles, 2016, XXXIV, pp.32-63.
+-   Florence Villoing, Maxime Deglas. Des lexèmes à forme unique :
+    comment le créole réanalyse les dérivations du français. Olivier
+    Bonami; Gilles Boyé; Georgette Dal; Hélène Giraudo; Fiammetta
+    Namer. The lexeme in descriptive and theoretical morphology,
+    Language Science Press, pp.115-154, 2018.
+

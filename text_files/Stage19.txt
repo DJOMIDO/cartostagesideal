@@ -1,0 +1,93 @@
+Titre: Analyse computationnelle des stéréotypes du genre dans la littérature française à travers le temps
+Date: 2023-01-03
+Organisme: Lattice
+Lieu: Montrouge
+
+
+Titre :
+
+Analyse computationnelle des stéréotypes du genre dans la littérature française à travers le temps.
+
+
+Cadre :
+
+Le laboratoire LATTICE a développé French BookNLP
+(https://www.lattice.cnrs.fr/projets/booknlp/), le versant français du projet Multilingual BookNLP visant à produire des chaînes de traitement linguistique adaptées aux textes littéraires (en particulier les romans : analyse des personnages, des lieux, etc.). Le but du stage est d'utiliser l'output des chaînes de traitement French BookNLP afin de répondre à des questions de recherche autour des stéréotypes du genre véhiculés par les personnages de romans.
+
+
+Délais :
+
+Démarrage dans l'idéal entre le 1er février 2023 et le 1er mars 2023.
+Date de démarrage négociable en fonction du profil du ou de la candidate et début à temps partiel possible.
+
+
+Profil recherché :
+
+Le ou la candidate est un·e étudiant·e de master (M1 ou M2) en TAL ou en Humanités Numériques avec une forte composante informatique.
+
+Compétences demandées :
+
+-   Manipulation de corpus informatiques
+-   Programmation (Python)
+-   Fouille de textes
+-   Implémentation d'outils TAL
+-   Intérêt pour la littérature française
+-   Connaissances en apprentissage machine souhaitables (ex: Sci-kit
+    learn)
+
+
+Questions de recherche (à choisir selon le profil de la candidature) :
+
+Le stage s'ancre dans l'analyse computationnelle des stéréotypes de genre dans la littérature française. La question de recherche traitée par le ou la stagiaire peut concerner les points suivants :
+-   Évaluer à quel point le genre des personnages peut être prédit par
+    un système automatique
+-   Quels sont les stéréotypes de genre dans la description des
+    personnages dans la littérature française ? Comment évoluent-ils
+    dans le temps ?
+-   Quels sont les différences dans la description de personnages
+    masculins et féminins selon le genre de l'auteur ?
+-   Est-ce que les stéréotypes trouvés par les modèles automatiques
+    correspondent aux stéréotypes décrits dans la littérature
+    scientifique-littéraire qualitative ?
+-   Dans quelle mesure la caractérisation des personnages repose-t-elle
+    sur des stéréotypes ?
+
+
+Contact :
+
+Pour toute question relative au stage, ou pour déposer votre candidature, contactez les deux référents
+-   M. Yoann Dupont, Maître de Conférences à Sorbonne Nouvelle
+    yoann.dupont@sorbonne-nouvelle.fr
+-   Mme Marine Wauquier, Maîtresse de Conférences à Sorbonne Nouvelle
+    marine.wauquier@sorbonne-nouvelle.fr
+
+Candidater :
+
+Merci de nous envoyer un CV ainsi qu'un relevé de notes récent et de préciser brièvement votre motivation dans le corps du mail.
+
+
+Lieu, durée, rémunération :
+
+-   Stage selon conditions en vigueur
+-   Temps plein selon l'indice en vigueur (environ 593¤/mois)
+-   4 à 5 mois
+-   Stage en présentiel au Laboratoire Lattice, UMR 8094, 1 rue Maurice
+    Arnoux, 92120 Montrouge
+
+
+Bibliographie :
+
+-   Dupont, Y., & Bordry, M. (2022). Exploration orientée entités:
+    étude du genre dans le Mercure de France (Entity oriented
+    exploration: studying gender in the Mercure de France). In Actes de
+    la 29e Conférence sur le Traitement Automatique des Langues
+    Naturelles. Atelier TAL et Humanités Numériques (TAL-HN) (pp. 1-9).
+    https://aclanthology.org/2022.jeptalnrecital-humanum.1/
+-   Naguib, M., Delaborde, M., Andrault, B., Bekolo, A., & Seminck, O.
+    (2022). Romanciers et romancières du XIXème siècle: une étude
+    automatique du genre sur le corpus GIRLS. In Traitement Automatique
+    des Langues Naturelles (pp. 66-77). ATALA.
+    https://aclanthology.org/2022.jeptalnrecital-humanum
+-   Underwood, T., Bamman, D., & Lee, S. (2018). The transformation of
+    gender in English-language fiction. Journal of Cultural Analytics,
+    3(2), 11035. https://culturalanalytics.org/article/11035
