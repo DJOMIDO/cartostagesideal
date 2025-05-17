@@ -1,68 +1,79 @@
-Titre: Typologie quantitative (2 stages)
-Date: 2023-01-23
-Organisme: Lacito / MoDyCo / LISN / INRIA
-Lieu: Île de France ou Nancy
+Titre: Évaluation de l'adaptabilité des grands modèles de langage à la variation linguistique
+Date: 2025-02-17
+Organisme: LIASD
+Lieu: Paris
 
 
-Le projet ANR Autogramm  (https://autogramm.github.io/) finance un sujet de thèse à pourvoir cette année, ainsi que des sujets de master.
-Les personnes intéressées peuvent contacter Sylvain Kahane skahane@parisnanterre.fr
+OFFRE DE STAGE
+SCIENCES DU LANGAGE / TRAITEMENT AUTOMATIQUE DES LANGUES
+(5 mois, niveau Master1 ou Master2) **Projet : Adaptabilité des Grands modèles de Langage (GMLs)
+Aux Genres Linguistiques Attestés (AGLAGLA)**
 
-Sujets M2 en typologie quantitative
--   rattachements possibles : Lacito (campus Villejuif) ou Modyco
-    (Université Paris Nanterre ) ou LISN (Université Paris Saclay) ou
-    Inria Grand Est (Nancy)
+Sujet de stage : Évaluation de l'adaptabilité des grands modèles de langage à la variation linguistique
 
-Nous nous intéressons à l'extraction de descriptions grammaticales de langues à partir de corpus annotés de différentes façons : textes avec annotation morphosyntaxique, glose et traduction (Interlinear Glossed
-Text, voir la collection Pangloss https://pangloss.cnrs.fr), textes avec annotation syntaxique (voir le projet Universal Dependencies https://universaldependencies.org/). Dans ce sujet de master, nous proposons de partir d'une description linguistique et d'examiner comment les énoncés descriptifs (les "règles" grammaticales) peuvent être inférés à partir d'un corpus, en cherchant notamment le type d'annotation du corpus et le type de requête qui seraient nécessaires pour y parvenir Plusieurs sujets sont possibles selon la ressource dont on part.
-Sujet 1: partir d'une base de données typologique comme le WALS (Word
-    Atlas of Language Structures online, https://wals.info et voir pour
-    chaque trait comment y répondre à partir d'un corpus annoté, soit
-    en se basant sur des annotations existantes, soit en proposant de
-    nouvelles annotations.
-Sujet 2: partir d'une grammaire de référence d'une langue et voir pour
-    certaines propriétés comment les retrouver dans un corpus annoté.
-    Ce deuxième sujet devra être mené pour une langue pour laquelle un
-    corpus annoté en syntaxe (syntactic treebank) est disponible et
-    avec la collaboration d'un spécialiste de la langue. Il n'est pas
-    nécessaire que le candidat parle la langue étudiée, mais il devra
-    avoir un vrai intérêt pour la grammaire des langues.
-Le travail à partir de corpus permet d'obtenir des informations quantifiées (fréquence de telle ou telle construction), ce qui ouvre de nouvelles perspectives d'exploitation des données par rapport à des bases de données typologiques classiques comme le WALS (voir sujet de thèse plus bas).
+Durée du stage : 5 mois (début : mars 2025)
 
-Sujet de thèse en typologie quantitative
--   à démarrer entre maintenant et le 1er octobre (vous pouvez me
-    contacter si vous avez un M2 ou soutenez votre M2 à la fin du
-    semestre)
--   financement pour 3 ans
--   rattachement : Modyco, Université Paris Nanterre & CNRS
+Date limite de candidature : 20 février 2025
 
-Nous disposons aujourd'hui de bases de données, concernant plusieurs dizaines de langues, comprenant des corpus annotés selon un même principe, grâce notamment aux corpus annotés en glose interlinéaires (IGT, voir par ex. la collection Pangloss, http://pangloss.cnrs.fr/) ou avec le schéma d'annotation Universal Dependencies (UD, https://universaldependencies.org et sa variante
-SUD, https://surfacesyntacticud.github.io/). Ces bases de données permettent des études typologiques et présentent plusieurs avantages: les résultats obtenus sont basés directement sur des données primaires (des corpus) et pas des données secondaires (des grammaires écrites par des linguistes). (Ce n'est que partiellement vrai, car les résultats dépendent quand même des choix fait par un linguiste dans la sélection du corpus et son annotation; néanmoins ces choix sont visibles et peuvent être discutés.) les résultats sont reproductibles à partir du moment où les données sont librement accessibles ; la nature des données permet d'avoir des résultats quantitatifs : on ne dira pas qu'une langue est OV ou VO, mais qu'elle a tel pourcentage de constructions OV et on pourra observer directement sur les données de quels facteurs dépend la répartition entre OV et VO (Levshina 2019
-https://www.degruyter.com/view/journals/lity/23/3/article-p533.xml,
-Gerdes et al. 2019
-https://syntaxfest.github.io/syntaxfest19/proceedings/papers/paper_100.pdf,
-Futrell et al. 2015 https://aclanthology.org/W15-2112.pdf).
-(Voir également le site https://typometrics.elizia.net/#/.)
+Gratification : montant légal en vigueur (environ 650€ / mois)
 
-L'objectif du sujet de thèse est de contribuer au développement de la typologie quantitative en participant à la construction d'une base de données quantitatives sur un grand nombre de langues typologiquement variées et en s'intéressant à l'exploitation d'un tel ensemble de données (Levshina 2022
-https://www.degruyter.com/document/doi/10.1515/lingty-2020-0118/html).
-L'originalité du projet repose sur le fait que nous travaillons sur des données quantitatives et non des traits catégoriels comme les bases de données typologiques existantes (voir notamment le Word Atlas of
-Language Structure online, https://wals.info/, qui donne accès à des données sur plus de 2500 langues).
+Laboratoire d'accueil : Équipe PASTIS du LIASD (EA 4383),
+Université Paris 8, 2 rue de la liberté, 93 526 Saint-Denis
 
-On pourra étudier les questions suivantes :
-Comment repérer des régularités cross-linguistiques, telles que des universaux implicationnels quantitatifs, à partir d'un ensemble de corpus de langues du monde (voir par exemple Gerdes et al. 2021
-https://www.glossa-journal.org/articles/10.5334/gjgl.764/?utm_source=TrendMD&utm_medium=cpc&utm_campaign=Glossa%253A_a_journal_of_general_lin guistics_TrendMD_0) ?
-Comment réaliser des inférences entre traits à valeurs quantitatives ?
-Quelles sont les informations quantitatives qui peuvent être extraites d'un corpus et qui sont utiles pour une étude typologique ?
-Quels sont les traits qui demandent une annotation préalable des données et quelle est la nature des annotations nécessaires ? (voir par exemple le cas des IGT pour les traits morphosyntaxiques et les treebanks pour l'ordre des mots)
-Comment dégager la signature typologique d'une langue à partir d'un corpus annoté et déterminer ce qui en fait sa particularité au sein d'un groupe de langues (voir Bickel & Nichols 2002
-http://www.autotyp.uzh.ch/download/canary.pdf et projet AutoTyp https://github.com/autotyp/autotyp-data/blob/master/readme.md)
-Comment prendre en compte le déséquilibre d'une base de données qui n'est pas représentative de la distribution des langues dans le monde, mais comprend une plus forte proportion de langues de certaines régions ou familles (langues indo-européennes, langues sémitiques, langues d'Asie de l'Est, etc.) au détriment d'autres régions ou familles (Papouasie-Nouvelle Guinée, Océanie, Afrique sub-saharienne, langues amérindiennes, langues aborigènes) ? (voir Guzmán Naranjo & Becker 2022
-https://www.degruyter.com/document/doi/10.1515/lingty-2021-0002/html).
-Comment résoudre la question de la commensurabilité des catégories utilisées dans la description des différentes langues ?
-Comment vérifier la cohérence des données ? Cette question peut être abordée en étudiant la cohérence de banques d'arbres d'une même langue ou d'une même famille de langues.
-Comment détecter la présence d'aberrations dans certaines banques d'arbres ? (choix de catégorisation non conformes au schéma universel, par exemple attribution de la relation sujet dans les langues ergatives, utilisation de la catégorie ADJ dans les langues sans adjectifs réels, etc.)
-Comment visualiser des données quantitatives multidimensionnelles ?
-Les données linguistiques posent de nombreux défis de ce point de vue.
+Contexte :
 
-Le travail sera mené en collaboration avec les membres du projet ANR
-Autogramm (https://autogramm.github.io/), chercheurs en linguistique de terrain, typologie, linguistique formelle et traitement automatique des langues. Il pourra mener, avec l'aide d'ingénieurs, à la constitution d'une base de données typométrique accompagnée d'outils d'interrogation et de visualisation des données.
+Avec l'apparition des grands modèles de langage (GML) de l'IA
+générative, une grande partie de la communauté scientifique estime que ces modèles ayant été entraînés sur des quantités de données gigantesques et variées, l'adaptation aux genres de texte ou aux domaines de spécialité n'est plus une nécessité : le modèle est censé avoir rencontré déjà toutes les types de données. Pourtant, à notre connaissance, cette hypothèse scientifique très forte n'a jamais été validée par des études expérimentales poussées. Dans le cadre de ce stage, nous vous proposons de participer à un projet de recherche visant précisément à vérifier cette affirmation et à participer ainsi à une meilleure connaissance des capacités des IA génératives. Dans une démarche de falsification d'hypothèse centrale dans la démarche scientifique, le projet  "Adaptabilité des Grands modèles de Langage
+Aux Genres Linguistiques Attestés (AGLAGLA)"  vise ainsi à évaluer la pertinence de cette hypothèse sur une langue (le français) et une tâche (la reconnaissance des entités nommées) données. Cette tâche consiste à trouver automatique dans des textes les éléments textuels qui désignent des objets uniques dans l'univers du discours (M'Bappé, le président de la république, le 3 février 2025, L'Amour Ouf, One Piece, l'entraineur du PSG...) Notre objectif est de conduire une expérience qui consistera à évaluer les performances des GML pré-entrainés généralistes (tels
+Chat GPT d'OpenAI ou Le Chat de Mistral AI, par exemple) sur des données de test correspondant à des domaines et genres linguistiques variés : encyclopédie, informations, roman, littérature, parole spontanée. Si les performances des systèmes étudiés varient d'un domaine à l'autre, notre démarche de falsification sera alors démontrée : les besoins d'adaptation au domaine restent d'actualité.
+
+Objectifs du stage
+
+-   Constitution d'un corpus de textes annotés en entités nommées pour
+    l'évaluation inédit garantissant l'absence de contamination des
+    modèles étudiés. Les GMLs étant obtenus par moissonnage de
+    l'ensemble des données du web, il est en effet important de
+    constituer une base de test qui n'y est pas présente, pour
+    s'assurer que les modèles évalués n'ont jamais rencontré les
+    données d'évaluation.
+-   Étudier et expliquer les conséquences de la variation d'invites
+    (prompts) sur des domaines multiples dans la reconaissance
+    d'entités nommées : l'objectif ici est d'observer des variations
+    éventuelles  de performances entre différents types de types de
+    texte, mais également d'étudier l'impact de la forme des prompts
+    sur ces variations de performances. Utiliser un GMLs, c'est en
+    effet savoir avoir optimiser le requêtage du modèle.
+
+
+Cadre du stage
+
+Ce stage bénéficie du soutien au projet Adaptabilité des Grands modèles de Langage Aux Genres Linguistiques Attestés (AGLAGLA) apporté par la
+Fédération de recherche ICVL (Informatique Centre Val de Loire). Le projet AGLAGLA réunit le laboratoire LIASD de l'Université PAris 8, le laboratoire LIFAT de l'Université de Tours, membre de la fédération
+ICVL, et le CESR de l'université de Tours. Le ou la stagiaire sera accueilli.e dans les locaux de l'Université Paris 8 au sein du laboratoire LIASD, où se déroule un doctorat portant sur une thématique de recherche proche. Des déplacements Paris-Tours et/ou Paris-Blois, remboursés, sont evisagés lors des réunions de l'équipe projet, auxquels la personne recrutée participera.
+
+
+Profil recherché / compétences recherchées
+
+La personne recrutée sera en année terminale de Master ou d'école d'ingénieur dans les domaines de l'informatique ou des Sciences du
+Langage outillées. Une maitrise conjointe de notions d'informatique et de linguistique (ou à défaut, un intérêt marqué pour ces dernières) sera fortement apprécié.
+-   Conaissance du langage Python et des bilbiothèques TALN (NLTK,
+    Spacy),
+-   Être familiarisé avec les GML (experience en APIs est un plus),
+-   Etre intéressé par une tâche d'annotation de texte, voire disposer
+    déjà d'une expérience, sera apprécié mais n'est pas une compétence
+    obligatoire pour un recrutement.
+
+
+Candidature
+
+Les candidatures devront porter un CV et une lettre de motivation.
+Elles doivent être adressées au plus tard le 20 février aux 3
+adresses suivantes :
+
+am@up8.edu - Alice Millour, LIASD,
+    Université Paris 8 Vincennes Saint-Denis gonzalezgallardo@univ-tours.fr - Carlos-Emilano González-Gallardo,
+    LIFAT/CESR, Université de Tours jean-yves.antoine@univ-tours.fr - Jean-Yves Antoine, LIFAT,
+    Université de Tours
+
+
+*Références* https://dhlab.hypotheses.org/6060

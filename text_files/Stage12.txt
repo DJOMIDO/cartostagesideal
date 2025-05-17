@@ -1,28 +1,69 @@
-Titre: Création de modèles neuronaux à base de graphes pour les BOTS
-Date: 2023-01-09
-Organisme: Orange
-Lieu: Lannion
+Titre: Fouille de données vocales sur les langues africaines
+Date: 2025-01-16
+Organisme: TETIS / INALCO
+Lieu: Montpellier ou Paris
 
 
-Stage à Orange Lannion :
-Création des modèles neuronaux à base des graphes pour les BOTS
+*Fouille de données vocales sur les langues africaines*
+Stage de M2 - 2025 (6 mois)
 
-Profil
-Vous êtes étudiant.e en master 2, et vous vous retrouvez dans le profil suivant, en terme de compétences et connaissances :
+*Contexte général*
 
-Compétences requises
+Ce stage s'inscrit dans les activités interdisciplinaires de l'UMR
+TETIS (INRAE), en partenariat avec l'équipe ERTIM (Inalco). Il s'inscrit dans la préparation d'un projet sur les méthodes de veille épidémiologique pour la prévention de crises sanitaires (essentiellement alimentaires) dans les pays africains à partir de données collectées sur les médias (radios, internet).
 
--   Vous avez des connaissances en statistique et informatique.
--   Des connaissances en Python sont impératives.
--   Des connaissances en apprentissage statistique sont requises (deep
-    learning).
--   Vous étés familiarisés avec les outils PyTorch (de préférence) ou
-    TensorFlow
+Les épidémies de maladies infectieuses animales et humaines se multiplient, fragilisant les systèmes alimentaires mondiaux et provoquant pénuries et flambées de prix. Dans ce contexte, la surveillance et l'alerte précoce jouent un rôle clé pour anticiper les crises et orienter les décisions politiques, qu'il s'agisse du contrôle des maladies ou du soutien agricole.
 
-Contexte:
-La compréhension contextualisée dans l'historique du dialogue, correspond à l'état de l'utilisateur tel que perçu par le système et s'appelle « Dialogue State Tracking (DST) » en anglais ou suivi de l'état du dialogue.  Plusieurs approches ont été proposées dans l'état de l'art pour résoudre ce problème.  Néanmoins, la plupart des modèles de l'état de l'art présupposent que l'état du dialogue peut être décrit par un ensemble de concepts indépendants et leur valeur associée. Par exemple, le système peut croire que l'utilisateur souhaite la valeur « pas chère » pour le concept « prix » à un moment donné. Toutefois, les applications plus réalistes présentent naturellement une dépendance entre concepts : par exemple, le prix et la localisation d'un restaurant sont dépendants car certains quartiers sont plus chers.
-Pour traiter ces dépendances nous avons défini une représentation plus riche à base des graphes RDF. Nous voudrions créer des modèles de DST
-qui génèrent ce graphe. Une première possibilité est de suivre les travaux proposes, par exemple en utilisant le Graph Attention Networks.
-Pour cela nous utiliserons les données de dialogues avec nos annotations en RDF. Nous voudrions aussi explorer, si possible, l'impact d'un état de dialogue structuré sur le module d'Apprentissage de la Politique de Dialogue qui doit décider l'action du système la plus approprié à partir de l'état du dialogue. Pour cela on peut adapter les modèles existants. Des exemples des actions possibles peuvent comprendre : demander de nouvelles valeurs, confirmer les valeurs déjà remplies, rectifier, ou bien fournir des informations.
+Des organisations comme l'OMS (Organisation Mondiale de la Santé), le
+PAM (Programme Alimentaire Mondial)ou le Réseau de systèmes d'alerte précoce contre la famine (FEWS NET) déploient des systèmes d'évaluation basés sur des enquêtes et des analyses. Bien que ces initiatives fournissent des indicateurs utiles, elles sont coûteuses et nécessitent une mobilisation importante d'experts.
 
-Plus de détails: https://orange.jobs/jobs/v3/offers/120747?lang=fr 
+Une alternative prometteuse consiste à exploiter les données issues des médias, en particulier les radios locales africaines, très populaires dans de nombreuses régions. Toutefois, ces médias s'expriment souvent dans des langues africaines peu dotées, pour lesquelles les outils de transcription automatique sont encore peu fiables.
+
+*Objectifs du stage*
+
+Ce stage portera sur l'évaluation de la faisabilité et le prototypage d'un système de transcription de la parole qui se focalise sur la thématique des crises épidémiologiques. L'objectif est de déterminer s'il est possible de mettre au point un système de reconnaissance de la parole qui se concentre sur la détection et la transcription de segments audios en se concentrant sur une thématique prédéfinie.
+
+La première étape du stage consistera à établir un état de l'art des méthodes et des ressources linguistiques en reconnaissance de la parole pour les langues ciblées par le projet : le wolof, le fulfuldé/peul, l'ewondo.
+
+Dans un second temps, une collecte de données sera réalisée afin de mettre en oeuvre et d'évaluer des systèmes de reconnaissance vocale sur une de ces trois langues et sur une langue mieux dotée (anglais ou français), à l'aide de données (audio et transcriptions) disponibles sur le web ou collectées par les partenaires. Les modèles de reconnaissance vocale (Wav2Vec, HuBERT, Whisper) seront comparés, leur capacité à mettre en oeuvre une fouille de données vocale sera évaluée.
+
+La fouille de données vocale sera finalement expérimentée sur une thématique spécifique à déterminer, selon deux méthodes. La première consistera à réaliser séparément la transcription de la parole puis la fouille de données sur les transcriptions. La seconde consistera à intégrer la fouille de données dans les modèles de reconnaissance de la parole, par estimation de la vraisemblance d'apparition de mots-clés ou de leurs synonymes pour les thématiques concernées dans le signal audio.
+
+
+*Organisation*
+
+Le stage gratifié se déroulera sur une période de 6 mois.
+L'étudiant·e sera accueilli·e à l'Inalco ERTIM (Paris 7ème) ou à l'UMR TETIS, à la Maison de la Télédétection (Montpellier) et sera encadré·e par Damien Nouvel (Inalco ERTIM) et Maguelonne Teisseire (INRAE UMR TETIS). Des réunions hebdomadaires sont prévues conjointement aux échanges informels en continu avec les encadrants du stage afin de discuter de l'avancée du travail et des éventuelles difficultés rencontrées.
+
+
+*Profil recherché*
+
+Master en TAL ou en informatique
+Compétences en fouille de données
+Connaissances en reconnaissance de la parole
+Intérêt pour les langues peu dotées
+
+
+*Candidatures*
+
+Envoyer CV, relevés de notes et motivations avant le 31 janvier 2025
+à damien.nouvel@inalco.fr et maguelonne.teisseire@inrae.fr en indiquant dans le sujet "Stage FDV".
+
+
+*Références*
+
+-   Deléglise, Hugo, Agnès Bégué, Roberto Interdonato, Elodie Maître
+    d'Hôtel, Mathieu Roche, et Maguelonne Teisseire. 2023. « How Can
+    Text Mining Improve the Explainability of Food Security
+    Situations? » Journal of Intelligent Information Systems,
+    décembre.- Ostfeld, R. S. 2009. « Biodiversity Loss and the Rise of
+    Zoonotic Pathogens ». Clinical Microbiology and Infection 15
+    (janvier):40-43.
+-   Hsu, W. N., Bolte, B., Tsai, Y. H. H., Lakhotia, K., Salakhutdinov,
+    R., & Mohamed, A. (2021). Hubert: Self-supervised speech
+    representation learning by masked prediction of hidden units.
+    IEEE/ACM transactions on
+-   Schneider, S., Baevski, A., Collobert, R., & Auli, M. (2019).
+    wav2vec: Unsupervised pre-training for speech recognition.
+    arXiv preprint arXiv:1904.05862.
+  

@@ -1,84 +1,153 @@
-Titre: Constitution de ressources et étude de la morphologie lexicale du créole guadeloupéen
-Date: 2023-01-11
-Organisme: MoDyCo
-Lieu: Nanterre
+Titre: Mapping Sentiment Representation in Large Language Models (LLMs)
+Date: 2025-01-20
+Organisme: ENAC / IRIT
+Lieu: Toulouse
 
 
-Constitution de ressources et étude de la morphologie lexicale du créole guadeloupéen =======================================================================
+Internship Proposal: Mapping Sentiment Representation in Large Language
+Models (LLMs)
 
-Contacts :
+Duration:6 months
+Location:  ENAC/IRIT, 7 avenue E. Belin, Toulouse, France
+Advisors:
+    Christophe Hurter, ENAC, Ipal, Singapore Toulouse,
+        christophe.hurter@enac.fr
+    Phillipe Muller, IRIT, Toulouse, Ipal, Singapore,
+        philippe.muller@irit.fr
+    Farah Benamara, IRIT, Toulouse, Ipal, Singapore
+        farah.benamara@irit.fr
 
--   Florence Villoing (villoing@parisnanterre.fr) MoDyCo,
-    (U. Paris Nanterre)
--   Loïc Grobol (lgrobol@parisnanterre.fr) MoDyCo,
-    (U. Paris Nanterre) et Lattice (ENS)
+Gratification:  630¤/Mois
 
 
-## Contexte
+        Overview
 
-Le laboratoire Modèles, Dynamiques, Corpus de l'Université Paris
-Nanterre propose un stage dans le cadre du projet ANR Autogramm (https://autogramm.github.io). L'objectif de ce stage est de constituer à partir de ressources existantes (corpus hétérogènes et lexiques) un corpus du créole guadeloupéen annoté morphosyntaxiquement et d'exploiter ce corpus afin d'étudier systématiquement la morphologie lexicale de cette langue.
+Large Language Models (LLMs) are widely used for tasks such as assisting with daily activities, engaging in discussions, and supporting reasoning. Their potential applications are vast. However, like many advanced systems, LLMs often function as "black boxes," making it difficult to discern how their outputs are generated.
+Ensuring transparency and explainability in these models is essential for enhancing user comprehension and enabling more accurate and responsible usage. This aligns with the core objectives of Explainable
+AI (XAI).
+
+A unique feature of LLMs is their ability to be interrogated and explored through direct questioning. Unlike traditional black-box systems, LLMs can provide self-explanatory insights. Users can query the model about its reasoning, enabling a reflective dialogue. This process is reminiscent of psychological analysis, where reasoning and underlying thoughts are explored through conversation.
 
 
-## Travail à réaliser
+        Importance of Sentiment Understanding
 
--   Rassembler et uniformiser des corpus existants du créole
-    guadeloupéen issus de diverses sources et formats
--   Annotation en parties du discours à l'aide de lexiques et/ou
-    d'étiqueteurs automatiques
--   Appariement automatique de formes dérivées (à minima noms et
-    verbes) sur le modèle de la base VerNom (Missud, Amsili et
-    Villoing, 2020).
--   Décomposition morphologique automatique des dérivés à partir des
-    paires et exploitation (Villoing et Deglas 2016, 2018)
--   En fonction du temps et des ressources disponibles : annotation
-    semi-automatique en dépendances syntaxiques.
+Sentiment understanding is critical in fostering collaboration and mutual understanding. Sentiments influence how messages are perceived, intent is interpreted, and responses are formulated. By analyzing how
+LLMs process sentiment, we can gain insights into their capacity for nuanced communication and improve their utility in collaborative and interactive environments.
 
-## Profil recherché
 
-Le ou la candidate est un·e étudiant·e de master (M1 ou M2) en TAL. On attend comme compétences :
+        Objectives
 
--   Manipulation de corpus informatiques
--   Programmation (Python)
--   Usage et implémentation d'outils TAL
--   Des compétences linguistiques dans un créole à base française
-    serait un plus, mais n'est pas obligatoire
+This internship will focus on investigating the intrinsic mechanisms of
+LLMs with respect to sentiment analysis. The primary objective is not to analyze sentiment in existing texts but to map how LLMs internally represent and process sentiment-related concepts. This will be achieved through:
 
-## Lieu, durée, rémunération
+ 1. Direct Questioning:
 
--   Temps plein selon l'indice en vigueur (environ 593¤/mois)
--   3 à 4 mois
--   Stage en présentiel au Laboratoire MoDyCo, UMR 7114, 200 avenue de
-    la république, Nanterre
--   Début de stage à négocier avec la personne sélectionnée
-    (mi-mars 2023 au plus tard).
+-   Probing LLMs to extract insights about their knowledge and
+    reasoning concerning emotions.
 
-## Contact - Dépôts de candidature
+-   Analyzing responses to identify patterns and strategies used by
+    the model to express sentiment-related reasoning.
 
-Dépôt des candidatures par courrier électronique auprès de Loïc Grobol et Florence Villoing, avant le 30 janvier 2023, délai de rigueur. Merci de déposer :
+ 2. Internal Representation Analysis:
 
--   Un CV détaillé de vos activités passées
--   Une lettre de motivation
--   Vos relevés de notes des deux dernières années d'études
+-   Exploring the internal embeddings of LLMs to trace how
+    sentiment concepts are encoded.
 
-Le cas échéant une lecture critique d'article scientifique pourra être demandée pour la sélection.
+-   Utilizing tokenization techniques to extract sentiment-related
+    tokens.
 
-## Références
+-   Measuring distances between sentiment-related tokens in the
+    embedding space to understand how sentiment is structured
+    within the model.
 
--   Alice Missud, Pascal Amsili, Florence Villoing. VerNom : une base
-    de paires morphologiques acquise sur très gros corpus. 6e
-    conférence conjointe Journées d'Études sur la Parole
-    (JEP, 33e édition), Traitement Automatique des Langues Naturelles
-    (TALN, 27e édition), Rencontre des Étudiants Chercheurs en
-    Informatique pour le Traitement Automatique des Langues (RÉCITAL,
-    22e édition). Volume 2 : Traitement Automatique des Langues
-    Naturelles, 2020, Nancy, France. pp.305-313.
--   Florence Villoing, Maxime Deglas. La suffixation en -asyon et en
-    -é en créole guadeloupéen : deux cas de réanalyse morphologiques du
-    français. Etudes créoles, 2016, XXXIV, pp.32-63.
--   Florence Villoing, Maxime Deglas. Des lexèmes à forme unique :
-    comment le créole réanalyse les dérivations du français. Olivier
-    Bonami; Gilles Boyé; Georgette Dal; Hélène Giraudo; Fiammetta
-    Namer. The lexeme in descriptive and theoretical morphology,
-    Language Science Press, pp.115-154, 2018.
+ 3. Visualization:
 
+-   Representing extracted data visually to illustrate the LLM's
+    semantic understanding of sentiment.
+
+-   Applying dimensionality reduction techniques (e.g., t-SNE, PCA)
+    and visual simplification methods (e.g., Edge Bundling) to
+    create interpretable visualizations of sentiment representations.
+
+ 4. Model Comparison:
+
+-   Comparing sentiment representations across different LLMs,
+    including small, large, and quantized models.
+
+-   Highlighting differences and nuances in how these models encode
+    and process sentiment through visual evidence.
+
+
+        Example Visualization
+
+Figure 1: Visualization of LLM tokens (dots, left) using dimensional reduction techniques (t-SNE, middle) and visual simplification techniques (Edge Bundling, right), showing connections between tokens to form words.
+
+
+        Expected Outcomes
+
+-   A detailed analysis of how LLMs represent and process sentiment
+    internally.
+
+-   Visual artifacts showcasing the semantic structures of sentiment
+    within LLMs.
+
+-   Comparative insights into sentiment handling across different LLM
+    architectures and scales.
+
+-   Foundational work contributing to the broader goals of Explainable
+    AI (XAI).
+
+
+        Candidate Profile
+
+The ideal candidate should have:
+
+-   A strong understanding of LLMs and modern generative AI
+    technologies.
+
+-   Proficiency in Python programming.
+
+-   Experience with tools and techniques such as BERT, RAG, and
+    embedding dimensionality reduction methods.
+
+-   A keen interest in XAI and the internal workings of machine
+    learning models.
+
+
+        References
+
+A curated list of research papers will be provided to establish the state of the art in this domain. These references will serve as a foundation for understanding the theoretical and practical aspects of sentiment representation in LLMs.
+
+References:
+
+[1] Aretha B. Alencar, Maria Cristina F. de Oliveira, and Fernando V.
+Paulovich. 2012. Seeing beyond reading: a survey on visual text analytics. Wiley Interdisciplinary Reviews: Data Mining and Knowledge
+Discovery 2, 6 (2012), 476-492
+
+[2] Ribeiro, M. T., Singh, S., & Guestrin, C. (2016). "Why should I
+trust you?" Explaining the predictions of any classifier. In
+Proceedings of the 22nd ACM SIGKDD International Conference on
+Knowledge Discovery and Data Mining (KDD '16).
+
+[3] Benamara, F., Cesarano, C., Picariello, A., Recupero, D. R., &
+Subrahmanian, V. S. (2007). Sentiment analysis: Adjectives and adverbs are better than adjectives alone. ICWSM, 7, 203-206.
+
+[4] Benamara, F., Taboada, M., & Mathieu, Y. (2017). Evaluative language beyond bags of words: Linguistic insights and computational applications. Computational Linguistics, 43(1), 201-264.
+
+[5] Zhang, L., Wang, S., & Liu, B. (2018). Deep learning for sentiment analysis: A survey. Wiley Interdisciplinary Reviews: Data Mining and
+Knowledge Discovery, 8(4), e1253.
+
+[6] Rogers, A., Kovaleva, O., & Rumshisky, A. (2020). A primer in
+BERTology: What we know about how BERT works. Transactions of the
+Association for Computational Linguistics, 8, 842-866.
+
+[7] Tenney, I., Das, D., & Pavlick, E. (2019). BERT rediscovers the classical NLP pipeline. In Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics (ACL 2019).
+
+[8] Liu, Y., Ott, M., Goyal, N., et al. (2019). RoBERTa: A robustly optimized BERT pretraining approach. arXiv preprint arXiv:1907.11692.
+
+[9] Brown, T., Mann, B., Ryder, N., et al. (2020). Language models are few-shot learners. arXiv preprint arXiv:2005.14165.
+
+[10] Md Naimul Hoque, Bhavya Ghai, and Niklas Elmqvist. 2022. DramatVis
+Personae: Visual Text Analytics for Identifying Social Biases in
+Creative Writing. In Proceedings of the ACM Conference on Designing
+Interactive Systems.

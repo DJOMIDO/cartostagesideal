@@ -1,102 +1,67 @@
-Titre: Generation of natural language datasets and metrics of representativeness
-Date: 2023-01-11
-Organisme: INRIA
-Lieu: Paris / Saclay / Rocquencourt
+Titre: Annotation automatique sémantique de documents multi/cross lingues par apprentissage frugal non supervisé
+Date: 2025-01-24
+Organisme: ESILV
+Lieu: La Défense
 
 
-Research intern position (with the goal of pursuing in PhD) at Inria on generation of natural language datasets and metrics of representativeness
+Titre du stage : Annotation automatique sémantique de documents multi/cross lingues par apprentissage frugal non supervisé.
 
-*Place of work*: Inria center in Paris area (Paris / Saclay /Rocquencourt)
-
-*Duration*: 6 months internship + 3 years PhD
-
-*Starting date*: Anytime in 2023
-
-*Keywords*: artificial intelligence, natural language processing, natural language generation, story generation, evaluation metrics
-
-*Context*
-This internship fits within the roadmap activities of Inria's Defense & Security Department.
-
-Inria's Defense & Security Department develops and maintains a serious game platform which can simulate the activity of a crisis monitoring cell. For instance, analysts in geopolitical crises are employed by the
-French Ministry of Armed Forces to better identify emerging or ongoing conflicts throughout the world. These analysts are typically overwhelmed by continuous streams of plain-text information and can be helped by Natural Language Processing (NLP) tooling. That platform enables, among other uses, to experiment with the NLP tools developed by researchers and partners, in order to get practical feedback from players on their usefulness during action.
-
-For these simulations, a fictive world has been created by Inria, including imaginary cities and an imaginary historical, social and political background.
-
-In order to test NLP solutions in a game scenario, it is necessary to create large amounts of text documents, which need to be both realistic in terms of their form and type of contents, and tailored to the context of that imaginary world. To date, this creation remains mostly manual, which is a very time-consuming process. To scale the scenarios up, it is thus planned to gradually automate this data creation, which is the ambition to which this internship will contribute.
-
-The intern will be supervised by Dr Lauriane Aufrant, who is the lead
-NLP researcher within Inria's Defense & Security Department. PhD
-supervision will be done jointly with Dr Frédérique Segond (Inria's
-Defense & Security Director) or with a researcher from another Inria team, depending on the exact chosen PhD topic (to be discussed, see below).
+Stage de recherche A4/Master 1 ou 2
 
 
-*Candidate profile*
+Contexte général
 
--   Pursuing a master's degree in Natural Language Processing,
-    Computational Linguistics or Computer Science with a specialization
-    in Machine Learning
--   Theoretical and practical knowledge of deep learning, as well as
-    traditional machine learning and knowledge-driven AI
--   Strong programming skills (at least Python, git, Linux environment,
-    command line and scripting)
--   Fluency in English. Knowledge or interest for the French language.
-    Knowledge of a second foreign language would be appreciated.
+Les données textuelles envahissent nos quotidiens personnels et professionnels. La recherche de documents pertinents répondant à des besoins métier devient une tâche très fastidieuse et nécessite un investissement en termes d'effort humain à annoter ces documents pour pouvoir les exploiter correctement. L'annotation sémantique de documents multimodaux est un sujet de recherche brûlant que nous proposons d'attaquer selon l'angle des résumés extractifs. Nous supposons qu'une annotation ou une étiquette n'est pas suffisante pour indexer sémantiquement un document. En revanche, un résumé peut représenter collectivement les informations les plus importantes ou les plus pertinentes du contenu d'origine. Par conséquent, toute opération qui émane de l'exploration des documents d'origines telles que la classification, la recherche, la segmentation, ou encore la catégorisation des documents peut être effectuée sur la base du résumé dès lors que ce dernier soit fidèle à l'information d'origine. Ce niveau de fidélité peut être évalué par le biais de différentes métriques qui seront sélectionnées d'une manière automatique en fonction de la tâche.
 
 
-*How to apply*
+Les objectifs du stage
 
-Send a CV and a cover letter to lauriane.aufrant and frederique.segond (both at inria.fr)
-Indications of referees or reference letters would be appreciated but are not mandatory.
+L'évaluation des systèmes de traitement automatique de la langue a toujours été un défi majeur pour les chercheurs. En effet ces tâches reposant sur des compétences abstraites de haut niveau, avant d'être difficile à réaliser elles sont tout simplement difficile à évaluer.
+Par exemple, afin d'évaluer un simple système de résumé automatique de texte, il est nécessaire de demander à des experts de créer des résumés à la main. Cependant, contrairement à une tâche d'annotation d'images certes fastidieuse mais simple, dans le cas du résumé, l'expert doit comprendre finement les documents sources afin d'en générer une synthèse fidèle. Une fois ces résumés de référence obtenus, il est nécessaire de développer une méthodologie afin de pouvoir évaluer la qualité des résumés générés automatiquement.
+La métrique la plus utilisée ROUGE2(Lin, 2004) va simplement compter le nombre de bi-grammes commun entre le résumé de référence et le résumé automatique. Plus un résumé aura de bigrammes communs avec le résumé de référence plus le système sera considéré comme performant. Avec l'essor de l'apprentissage profond, ces métriques ont été améliorées par exemple avec le BERTScore(Zhang & Al, 2020) qui permet de comparer les phrases au niveau vectoriel et ainsi identifier des phrases sémantiquement proches même si elles diffèrent complètement syntaxiquement (par l'usage de synonyme par exemple). Certaines méthodes vont encore plus loin en faisant complètement abstraction de toute annotation de référence. C'est le cas de la métrique BARTScore (Weizhe & Al, 2021). Celles-ci ont été testées dans différentes applications et pour différentes tâches. Dans ce travail, nous visons leur exploitation pour une tâche d'extraction de résumés à partir de documents thématiques. Deux contextes applicatifs seront étudiés dans le cadre de ce stage. Le premier domaine applicatif portera sur l'étude et la compréhension de l'acceptabilité publique et sociale des technologies énergétiques à faible teneur en carbone controversées au cours de la dernière décennie : fusion nucléaire, photovoltaïque et éoliennes en mer". Ce travail sera mené en collaboration avec l'axe 2
+en particulier avec Insaf Khelladi sur l'aspect de l'acceptabilité sociale et Pascal Clain sur l'analyse des technologies énergétiques. Le second domaine applicatif portera sur le tourisme et s'intéresse particulièrement à l'analyse des sentiments des visiteurs basés sur les données collectées à partir de hotel.com, TripAdvisor, Booking, etc.
+Des interactions sont prévues avec Gaël Chareyron pour une meilleure compréhension et analyse de ces données.
+Les hypothèses suivantes que nous souhaitons explorer dans ce stage sont comme suit :
+    1)  Ces métriques permettent de construire des résumés extractifs
+        synthétiques pertinents et porteurs de sens. Cependant le cadre
+        méthodologique de ces métriques ne permet pas d'expliquer le
+        processus d'extraction. Or si nous cherchons à annoter
+        sémantiquement les documents via les résumés, il est nécessaire
+        de tracer la pertinence des mots/ phrases.
+    2)  Supposons que les résumés sont sémantiquement pertinents par
+        rapport aux documents d'origine, on s'intéresse à étudier
+        l'apprentissage frugal, qui vise à construire les modèles les
+        plus précis possibles en utilisant le moins de ressources
+        possible. Une large gamme d'algorithmes d'apprentissage sera
+        examinée sous l'angle de l'apprentissage frugal, en analysant
+        leurs performances et leur temps d'exécution sur les résumés.
+    3)  Ces métriques indépendantes de toute annotation peuvent être
+        adaptées au cas de résumés génératifs de documents textuels et
+        amorcer une boucle automatique d'amélioration de ces modèles.
+    4)  Ces métriques peuvent être étendues aux cas de résumés
+        génératifs textuels d'images en se basant sur les prompts et
+        sur les commentaires associés aux images.
+    5)  A partir d'un résumé génératif textuels d'images et en se
+        basant sur les métriques, nous souhaitons générer une image
+        résumée.
 
+Les compétences attendues : le stagiaire sera en mesure de comprendre l'état de l'art récent sur les métriques d'évaluation et l'apprentissage frugal. De proposer une implémentation modulaire de ces métriques et de les tester sur des jeux de données de benchmark pour se comparer mais également de construire un jeu de données images et textes pour tester les limites de nos hypothèses.
 
-*Internship description*
+Durée du stage : Le stage durera 6 mois.
+Il est co-encadré par Nédra Mellouli et Christophe Rodrigues.
 
-Two configurations for Natural Language Generation (NLG) will be considered throughout this work: topic-based NLG (to produce haystacks) and knowledge base-to-text NLG (to produce needles).
+contact : christophe.rodrigues@devinci.fr
 
-The internship will be devoted to prepare the scientific framework within which the PhD work will be developed, and in particular metrics that will be used to guide and evaluate future contributions on the generation itself.
+Lieu : Campus Cyber, La Défense.
 
-In the current NLG literature, text generation is usually evaluated at the sentence- or document-level only, by considering aspects such as fluency (is it good French?) or coherence (does the text make sense?).
-But much more rarely is the setting of NLG evaluation at the dataset level considered. This includes accounting for higher-level properties, such as realism, consistency and diversity:
--   Diversity, as in generating documents with sufficient variability
-    in form and content, is increasingly considered in the literature,
-    in particular as a result of some NLG models' tendency to repeat
-    themselves. However, existing metrics are often rather basic, and
-    covering only some aspects of the diversity property (see for
-    instance https://arxiv.org/pdf/2006.14799.pdf or
-    https://aclanthology.org/2021.eacl-main.25.pdf ), so there is room
-    for improvement.
--   Consistency, as in avoiding to generate one document where a given
-    person is born on April 12 and another where the same person is
-    born on April 13, is sometimes considered at the level of a single
-    document (in the context of story generation), but not really
-    across documents. Still, there is inspiration to be drawn here from
-    the fact checking literature, for instance considering settings
-    where each document in turn is to be fact checked against all
-    others.
--   Realism is a much more complex, multi-faceted property,
-    encompassing at least the adequacy of style (would the fictive
-    author have written that way, in light of their background?), the
-    nature of contents (would a transcript of political debate cite
-    football match results?), the nature of facts (would a politician
-    be aged 15, or a World cup football player aged 60?), and possibly
-    many other aspects. On this part, most of the work remains to be
-    done.
+Références
 
-The intern's work will be to develop new metrics to quantify dataset quality along those three properties, drawing inspiration both from conceptual investigations and user studies (to build a taxonomy of aspects to evaluate) and from empirical studies conducted with state-of-the-art NLG models to observe how the generated data reacts to various tentative metrics.
+Lin, 2004, {ROUGE}: A Package for Automatic Evaluation of Summaries In
+Proceedings of the Workshop on Text Summarization Branches Out, WAS.
 
+Zhang & Al, 2020, BERTScore: Evaluating Text Generation with BERT in proceedings of International Conference on Learning Representations,
+ICLR.
 
-*PhD follow-up*
-
-Based on the scientific methodology developed during the internship to evaluate NLG quality at dataset level, the work will be pursued as a
-PhD to propose new generation methods that better perform along those metrics.
-
-Considering both settings of topic-based and knowledge base-to-text
-NLG, the goal in each case is to compare pure generation methods (using
-GPT3-like models or more specialized models) with approaches based on well-focused Web crawling followed by text substitutions, paraphrasing and other automated transformations applied on the collected documents, to modify their style or their base information.
-
-The PhD student will work on designing and implementing new approaches along those lines, but also use the new metrics to evaluate and compare those approaches with existing models in NLG literature. As work progresses, it is also likely that the initially proposed metrics are refined or complemented to better match empirical evidence gathered during the PhD.
-
-The exact PhD topic will be written in coordination with the intern, to fit their primary interests within that broad objective. In any case, the work will focus as a first step on plain-text documents written in correct language, but then it will tackle the generation of more complex types of data, for which several options can be considered, such as: generating tweets, documents with corrupted language (simulating typos or grammar errors in the most realistic way), multimodal documents that include and discuss tables or pictures, corpora containing divergent views and (purposedly) inconsistent facts, etc.
-
-Since the PhD application processes are early in the year (February-April), the intern will be asked to commit early to that PhD
-follow-up, possibly even before the internship begins, and to be ready to devote some time for writing the application over that period.
+Weizhe & Al, 2021, BARTScore: Evaluating Generated Text as Text
+Generation in proceedings of Advances in Neural Information Processing
+Systems, NEURIPS.

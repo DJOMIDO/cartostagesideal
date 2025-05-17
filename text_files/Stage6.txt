@@ -1,94 +1,51 @@
-Titre: Information extraction and automated knowledge graph construction for French
-Date: 2023-01-16
-Organisme: INRIA
-Lieu: Paris / Saclay / Rocquencourt
+Titre: Communicative Acts modeling in Audio-Visual Documents
+Date: 2025-02-05
+Organisme: LISN
+Lieu: Orsay
 
 
-Research intern position (with the goal of pursuing in PhD) at Inria on information extraction and automated knowledge graph construction for
-French
+M2 Internship
+LISN laboratory https://www.lisn.upsaclay.fr/?lang=en
 
-*Place of work*:
-Inria center in Paris area (Paris / Saclay / Rocquencourt) *Duration*: 6 months internship + 3 years PhD
-*Starting date*: Anytime in 2023
-*Keywords*: artificial intelligence, natural language processing, information extraction, knowledge graph, French language
+LIPS Team https://www.lisn.upsaclay.fr/research/research-departments/stl/lips-2/?lang=en
 
-*Context*
+Title : Communicative Acts modeling in Audio-Visual Documents
 
-This internship fits within the roadmap activities of Inria's Defense &
-Security Department.
+Supervisors
+Camille Guinaudeau
+Sahar Ghannay
 
-Analysts in geopolitical crises are employed by the French Ministry of
-Armed Forces to better identify emerging or ongoing conflicts throughout the world. These analysts are typically overwhelmed by continuous streams of plain-text information. The goal is to structure that information, so that it can be manipulated as graphs and therefore better formalized, cross-referenced and corroborated; such form would in turn enable more advanced visualizations such as automatically generating reports or various indicators on escalating tensions, with the perspective of better anticipation.
+Context
 
-Taking as example the current situation in Ukraine, one practical application can be to get an overview of where in Ukraine there are
-Russian tanks at present (and how many of them), based on reported sightings posted by locals on Twitter. Another example is the cross-referencing of live reports from online newspapers, to identify which transport infrastructures (e.g. train stations, bridges...) have been damaged all over the country, and thereby estimate remaining options for evacuation of civilians.
+Most human interactions occur through spoken conversations. If this interaction mode seems so natural and easy for humans, it remains a challenge for spoken language processing models as conversational speech raises critical issues. First, non-verbal information can be essential to understand a message. For example a smiling face and a joyful voice can help detecting irony or humor in a message. Second, visual grounding between participants is often needed during a conversation to integrate posture and body gesture as well as references to the surrounding world. For example, a speaker can talk about an object on a table and refer to it as this object by designing it with her hand. Finally, semantic grounding between participants of a conversation to establish mutual knowledge is essential for communicating with each other. In this context, the MINERAL project aims to train a multimodal conversation representation model for communicative acts and to study communicative structures of audiovisual conversation.
 
-The field of Natural Language Processing (NLP) offers numerous tools and algorithms for information extraction, but they face several limitations. First, many of those are disparate isolated tools, with few comprehensive and consistent pipelines. While the first steps of information structuring (extraction) are extensively studied, fewer works reach the deeper stage of knowledge graph construction. And when they do, they are often developed for English only, whereas here the information stream would be in French.
+Internship's objectives
 
-Inria's Defense & Security Department develops and maintains a serious game platform which can simulate the activity of a crisis monitoring cell. Within that platform there will be the opportunity to experiment with the NLP tools developed by the intern, in order to provide the intern with practical feedback from players.
+As part of this project, we are offering a 5- to 6-month internship focused on communicative acts modeling for dialogues from films and TV
+series. The first step will involve extending an existing annotation ontology for communicative acts, originally designed for audio-only corpora such as Switchboard, to better capture multimodal information.
+This extension will incorporate non-verbal cues such as facial expressions, gestures, and visual grounding between speakers.
+Once the annotation framework is established, the intern will experiment with large language models (LLMs) to automate the annotation process. This will involve designing prompting strategies and fine-tuning multimodal models such as GPT-4V, Gemini, or LLaVA to generate semi-automatic annotations for audiovisual dialogues. The study will compare different approaches, including few-shot prompting and transfer learning, to assess their effectiveness in recognizing communicative acts across different contexts.
 
-The intern will be supervised by Dr Lauriane Aufrant, who is the lead
-NLP researcher within Inria's Defense & Security Department. PhD
-supervision will be done jointly with Dr Frédérique Segond (Inria's
-Defense & Security Director) or with a researcher from another Inria team, depending on the exact chosen PhD topic (to be discussed, see below).
+Practicalities
+The internship will be funded ~600 euros per month for a duration of 5 or 6 months and will take place at LISN within the LIPS team. This internship can potentially be followed by a funded PhD, based on performance and interest in continuing research in this area.
+Required Qualifications:
+-   Master's degree (M2) in Computer Science or related field.
+-   Experience with deep learning frameworks such as Keras or PyTorch.
+-   Knowledge of image processing would be an advantage.
+To apply, please send your CV, a cover letter and your M1 and M2
+transcripts (if available) by email to
+Camille Guinaudeau camille.guinaudeau@universite-paris-saclay.fr and
+Sahar Ghannay sahar.ghannay@universite-paris-saclay.fr
 
-
-*Candidate profile*
-
--   Pursuing a master's degree in Natural Language Processing,
-    Computational Linguistics or Computer Science with a specialization
-    in Machine Learning
--   Theoretical and practical knowledge of deep learning, as well as
-    traditional machine learning and knowledge-driven AI
--   Strong programming skills (at least Python, git, Linux environment,
-    command line and scripting)
--   Fluency in English. Knowledge or interest for the French language.
-    Knowledge of a second foreign language would be appreciated.
-
-
-*How to apply*
-
-Send a CV and a cover letter to lauriane.aufrant and frederique.segond (both at inria.fr)
-Indications of referees or reference letters would be appreciated but are not mandatory.
-
-
-*Internship description*
-
-Building a knowledge graph from text involves a number of diverse NLP
-tasks, such as named entity recognition, named entity disambiguation (aka entity linking), coreference resolution, open relation extraction, relation clustering, document-level event extraction, slot filling, etc.
-
-The intern's work will touch upon the whole panel of tasks, but in varying depth. Considering the large amount of open source code releases in NLP research, priority is set on leveraging existing code and models. When French models are not readily available, open source code will need to be retrained on French corpora. And in some cases, it will be necessary to re-implement an algorithm from its published paper.
-
-While deep learning approaches will be ubiquitous in that work, the intern will need to remain open to alternate solutions, as the large-scale datasets required by deep learning will not be available in
-French for all these tasks.
-
-The first research focus will be to study the best combination scheme for these various tasks. For instance, relation clustering can inform named entity disambiguation by providing more comprehensive and consistent information on the named entities to disambiguate; and named entity disambiguation can inform relation clustering by enabling access to structured information on the arguments of those relations. To leverage such interactions within the pipeline, several approaches are possible: run one before the other, or vice-versa, iterate between both, or setup joint predictions. These choices will be made based on both theoretical and empirical analyses.
-
-The second research focus will be a fine-grained evaluation of the performance all over the pipeline, in order to identify where in the pipeline the information is lost the most, and how errors propagate throughout the pipeline. A thorough analysis will lead to identify where to put the most research efforts in the future to improve qualitative and quantitative performance.
-
-
-*PhD follow-up*
-
-The proposed internship is meant to serve as a proof of concept for a broader project on building a unified framework for information extraction. The goal is to implement a framework that is flexible enough to integrate and evaluate any method from the state of the art (with the prospect of becoming a new standard for the community), but also experiment more deeply with pipeline design, considering innovative combination schemes or extra preprocessing (e.g. parsing, to enable syntax-aware models).
-
-It is therefore proposed to pursue the internship with a PhD, whose exact topic will be written in coordination with the intern, to fit their primary interests within that broad objective.
-
-In any case, the PhD topic will include at least working on the framework itself (which will include extensive survey work to build an accurate view of the diversity of existing approaches, and their commonalities), and extensions of particular interest for the team are:
--   to pursue the work on the combination scheme, with the twofold goal
-    of limiting error propagation and increasing the amount of
-    available information in inputs,
--   to propose new task-specific models that better leverage the
-    existing third-party information produced along the pipeline,
--   to work on algorithmic methods to speed up the building of a
-    pipeline under that framework, for a new language that does not
-    have as many datasets and existing models as English (including,
-    but not limited to, transfer learning approaches),
--   to extend the framework with domain adaptation capabilities, to
-    facilitate the application of the framework to a new domain (for a
-    language in which a full pipeline already exists),
--   to focus on some specific tasks to improve in the French pipeline,
-    according to the bottleneck analysis produced at the end of the
-    internship.
-
-Since the PhD application processes are early in the year (February-
-April), the intern will be asked to commit early to that PhD follow-up, possibly even before the internship begins, and to be ready to devote some time for writing the application over that period.
+References: [Albanie, 2018] Samuel Albanie, Arsha Nagrani, Andrea Vedaldi, and
+    Andrew Zisserman. Emotion Recognition in Speech using Cross-Modal
+    Transfer in the Wild. In Proceedings of the 26th ACM international
+    conference on Multimedia. 2018
+[Zhang, 2021] Sheng Zhang, Min Chen, Jincai Chen , Yuan-Fang Li, Yiling
+    Wu, Minglei Li, Chuanbo Zhu. Combining cross-modal knowledge transfer
+    and semi-supervised learning for speech emotion recognition.
+    Knowledge-Based Systems. 2021.
+[Fang, 2012] Alex C. Fang, Jing Cao, Harry Bunt and Xiaoyue Liu. The
+    annotation of the Switchboard corpus with the new ISO standard for
+    dialogue act analysis. Workshop on Interoperable Semantic Annotation.
+    2012.

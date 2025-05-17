@@ -1,72 +1,92 @@
-Titre: Extraction d’informations dans des documents de renseignement ouvert
-Date: 2023-01-03
-Organisme: DGA Maîtrise de l'information
-Lieu: Bruz
+Titre: Augmentation de données textuelles à l’aide de Grands Modèles de Langage (LLM)
+Date: 2025-01-07
+Organisme: INRIA
+Lieu: Grenoble ou Rennes
 
 
-Intitulé du poste : Extraction d'informations dans des documents de renseignement ouvert
+Stage en Augmentation de données textuelles à l’aide de
+Grands Modèles de Langage (LLM) https://recrutement.inria.fr/public/classic/fr/offres/2024-08502
 
-Domaine(s) : INFORMATIQUE
+Type de contrat : Stage
+Niveau de diplôme exigé : Bac + 3 ou équivalent
+Fonction : Stagiaire de la recherche
 
-Sous-domaine(s) : Intelligence artificielle
-
-Niveau(x) d'étude requis : Bac +5 et plus / Bac +4
-
-Diplôme(s) préparé(s) : Ingénieur ou M2 Expérience en TAL et en IA.
-
-Maîtrise en programmation Python et du framework TensorFlow ou PyTorch.
-Aisance avec l'environnement Linux et le script shell. Autonomie et force de proposition. Apprécie le travail en équipe. Des connaissances sur les API de type REST sont appréciables.
-
-Durée : 6 mois
-
-Organisme : Direction générale de l'armement
-
-Localisation : BRUZ
-
-Gratification/Rémunération : Oui
-
-Restauration : Oui, mais au frais du candidat avec une subvention
-
-Logement : Non
+Informations générales Ville : Grenoble (ou Rennes)
+Centre Inria : Centre Inria de l'Université Grenoble Alpes
+Date de prise de fonction souhaitée : 01/02/2025
+Durée de contrat : 6 mois
+Date limite pour postuler : 28/02/2025
 
 
-Description de la mission
+Contacts
 
-L'objectif de ce stage consiste à adapter et évaluer les modèles existants de l'état de l'art pour extraire les entités nommées dans des documents textuels en lien avec le renseignement d'origine source ouverte. Le corpus analysé pourra par exemple être la base publique
-Renseignor.
+Équipe Inria : MIS-DEFENSE (DIRECTION)
 
-Les travaux porteront principalement sur les tâches suivantes :
+Recruteur : Arunraja Emilie / emilie.arunraja@inria.fr
 
--   Faire un état de l'art sur les méthodes récentes en reconnaissance
-    d'entités nommées ;
--   Prendre en main / adapter un outil d'annotation manuelle
-    multi-utilisateurs ;
--   Contribuer à la mise en place d'une petite campagne
-    d'annotation pour construire un corpus annoté ;
--   Analyser statistiquement les spécificités du corpus d'étude ;
--   Évaluer les approches les plus pertinentes de l'état de l'art en
-    REN sur le corpus annoté en se basant sur les métriques standards
-    pour cette tâche ;
--   Proposer une approche de REN adaptée au corpus ;
--   Si le temps le permet, étendre l'approche proposée (nouveau corpus,
-    nouvelle langue, tâche aval...).
+Contexte et atouts du poste
 
-Les choix des outils et des méthodes seront définis en coordination avec les membres de l'équipe.
+Inria Défense&Sécurité (Inria D&S) a été créé en 2020 pour fédérer les actions d’Inria répondant aux besoins numériques des forces armées et forces de l'intérieur. Le stage sera réalisée au sein de l'équipe de recherche en TALN de Inria D&S en partenariat avec l'Agence
+Ministérielle pour l'IA de Défense (AMIAD), sous la direction de
+Pauline Soutrenon et Lucie Chasseur Ingénieures NLP (Mission D&S Inria,
+Grenoble) ainsi que Nihel Kooli Experte NLP et IA (Agence Ministérielle pour l’IA de Défense (AMIAD, Rennes)). Dans le domaine du Traitement
+Automatique des Langues, le développement de systèmes performants repose fortement sur des jeux de données annotées de haute qualité. Ces annotations, qui peuvent inclure des étiquettes de catégories, des entités nommées ou des relations syntaxiques, sont essentielles pour permettre aux modèles d’apprentissage automatique de capturer les subtilités du langage humain. Cependant, constituer ces jeux de données est une tâche complexe, chronophage et coûteuse, nécessitant une expertise linguistique, une standardisation rigoureuse et des efforts considérables pour garantir la cohérence des annotations. Ces contraintes rendent l'accès à des données de qualité particulièrement difficile, notamment pour les langues peu représentées ou les domaines spécialisés comme celui de la défense. Cette rareté des données annotées constitue une problématique majeure dans le domaine du
+Traitement Automatique des Langues. Quelle que soit la tâche, l’efficacité des approches repose sur la disponibilité des données annotées. Dans la plupart des cas, ces données sont limitées ou parfois même inexistantes, ce qui représente un frein important au développement de solutions robustes. L’émergence des Grands Modèles de
+Langage (LLM), tels que ChatGPT, Llama ou Mistral, offre une opportunité de générer, enrichir ou diversifier des jeux de données de manière automatisée tout en réduisant les coûts et les délais associés à leur production. Ce stage s’inscrit dans cette perspective et a pour objectif d’explorer les capacités des LLM pour répondre aux besoins critiques de données annotées.
 
-La mission première de la Direction Générale de l'Armement est de fournir aux armées et aux services du ministère des armées les systèmes et outils nécessaires à leurs missions. Le centre Maîtrise de l'Information (DGA-MI) assure l'expertise technique en appui de la maîtrise d'ouvrage des systèmes développés par l'industrie pour les armées ou les services du ministère des armées.
+Mission confiée
 
-Le/la stagiaire intègre une équipe technique spécialisée en traitement automatique du langage écrit et parlé, implantée sur le site de DGA-MI
-à Bruz, près de Rennes.
-
-La Reconnaissance d'Entités Nommées (REN) est une tâche fondamentale en extraction d'information qui consiste à extraire des entités dans un texte donné (personnes, localisations, organisations, etc.). Bien qu'il s'agisse d'une tâche classique du domaine du TAL, la REN reste un défi et présente encore des difficultés non résolues. Ces difficultés sont souvent liées aux types d'entités à extraire, à la nature du texte et aux spécificités des énoncés linguistiques. Dans le cadre de ce stage, il s'agit de d'étudier cette tâche pour des documents spécifiques au domaine du renseignement.
+Ce projet s’inscrit dans la continuité de notre participation au défi TextMine 2025 (https://www.kaggle.com/competitions/defi-text-mine-2025) pour lequel nous avons mené des travaux d’augmentation de données du jeu de données fourni avec un LLM afin d'optimiser les performances d'un modèle d'extraction de relations. Ces travaux ont produit des résultats prometteurs qui nécessitent d’être approfondis. Dans le cadre de ce stage, l’augmentation de données sera appliquée à un corpus de documents textuels issus d’informations en direct du journal Le Monde.
+Ces news ont été produites sur la période initiale de la guerre en
+Ukraine entre février et mars 2022 . L'accumulation de données journalistiques depuis le début de la guerre en Ukraine offre l'opportunité de constituer de nouveaux corpus où le vocabulaire spécialisé de la défense est omniprésent. Un premier travail d’annotation du corpus a été effectué en suivant un guide d'annotation spécifiquement conçu pour ce projet. La première partie du stage consistera à prendre connaissances des données. Des tests pourront ensuite être réalisés pour sélectionner le ou les LLM les plus pertinents pour cette tâche. Puis, la mission consistera à définir une stratégie d’augmentation (prompt(s) à utiliser, processus pour garantir la qualité et la cohérence des données générées) et à mettre en place la pipeline d'augmentation de données (en mettant l’accent sur le traitement et le formatage des réponses générées par le LLM). Enfin, une évaluation de l'impact des données générées pourra être réalisée de manière à vérifier la qualité des annotations et à identifier les biais et les cas limites.
 
 
-Description de la structure d'accueil
+Principales activités
 
-DGA Maîtrise de l'information Bruz (près de Rennes) est responsable de la conception, de l'acquisition et de l'évaluation des systèmes qui équipent les forces Armées. Nos experts techniques travaillent dans les domaines innovants tels que les systèmes d'information et de communication, la cybersécurité, l'Intelligence Artificielle, la survivabilité des systèmes, la navigation, la guerre électronique et les systèmes de missiles.
+-   Analyser les besoins et se familiariser avec les données
+-   Tester et sélectionner le(s) LLM le(s) plus pertinent(s) pour
+    cette tâche
+-   Définir une stratégie d’augmentation de données
+-   Mettre en place la pipeline d’augmentation de données
+-   Évaluer l’impact des données générées
+-   Documenter et présenter les résultat
 
-Adresse
-DGA MAÎTRISE DE L'INFORMATION BP 735170 BRUZ
 
-*Candidature*
-Candidature (CV en français) à soumettre à dga-mi.stage.fct@intradef.gouv.fr en indiquant en objet "*Candidature offre réf STG/DGA/6669*".
+Compétences
+
+-   Maîtrise du français écrit et parlé
+-   Connaissances solides en linguistique et en traitement automatique
+    des langues
+-   Connaissance de Python · Familiarité avec les LLM et leurs API
+-   Une connaissance d’outil d’annotation, comme Label studio,
+    sera appréciée
+
+
+Références
+
+Armingaud, R., Peuvot, A., Besançon, R., Ferret, O., Souihi, S., et al.
+(2024, July). CEA-List@EvalLLM2024 : prompter un très grand modèle de langue ou affiner un plus petit ?. Atelier sur l'évaluation des modèles génératifs (LLM) et challence d'extraction d'information few-shot,
+Institut des sciences informatiques et de leurs interactions - CNRS
+Sciences informatiques [INS2I-CNRS], Toulouse, France.
+
+Bogdanov, S., Constantin, A., Bernard, T., Crabb'e, B., & Bernard, E.
+(2024, February). NuNER: Entity Recognition Encoder Pre-training via
+LLM-Annotated Data. In Proceedings of the 2024 Conference on Empirical
+Methods in Natural Language Processing.
+
+Dai, X., & Adel, H. (2020, October). An Analysis of Simple Data
+Augmentation for Named Entity Recognition. In Proceedings of the 28th
+International Conference on Computational Linguistics.
+
+Ye, J., Xu, N., Wang, Y., Zhou, J., Zhang, Q., Gui, T., & Huang, X.
+(2024, February). LLM-DA: Data Augmentation via Large Language Models for Few-Shot Named Entity Recognition.
+
+
+Avantages
+
+-   Restauration subventionnée
+-   Transports publics remboursés partiellement
+-   Congés déterminés en fonction de la durée du stage
+-   Équipements professionnels à disposition (visioconférence, prêts de
+    matériels informatiques, etc.) Prestations sociales, culturelles et
+    sportives (Association de gestion des œuvres sociales d'Inria 

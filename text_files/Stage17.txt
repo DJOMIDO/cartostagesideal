@@ -1,62 +1,52 @@
-Titre: Gestion des données et évaluation pour le TAL/NLP
-Date: 2023-01-03
-Organisme: DGA Maîtrise de l'information
-Lieu: Bruz
+Titre: Reference-Free Evaluation of Image Descriptions for Visually Impaired Users
+Date: 2025-01-07
+Organisme: LISN
+Lieu: Orsay
 
 
-La Direction Générale de l'Armement (DGA, direction du Ministère des
-Armées) recrute un stagiaire en Extraction d'Information, descriptif de l'offre ci-dessous. N'hésitez pas à nous contacter pour plus de renseignements.
+Title : Reference-Free Evaluation of Image Descriptions for Visually
+Impaired Users
 
-Intitulé du poste : Stage ingénieur.e gestion des données et évaluation pour le TAL/NLP
+*Supervisors
+Camille Guinaudeau
+Michèle Gouiffès
 
-Domaine(s) : INFORMATIQUE
+Keywords : Natural Language Processing, image captioning, computer vision, IA, visually impaired users
 
-Sous-domaine(s) : Intelligence artificielle
-
-Niveau(x) d'étude requis : Bac +5 et plus / Bac +4
-
-Diplôme(s) préparé(s) : Ingénieur ou M2 Expérience en TAL et en IA.
-
-Compétences : Programmation Python, script shell Unix et langages de bases de données (tels que : SQL, NoSQL, MongoDB...). Compétences en TAL
-(connaissance des tâches majeures du domaine et des approches pertinentes pour les résoudre) et appétence pour les problématiques évaluatives. Autonomie et ingéniosité. Apprécie le travail en équipe.
-Des compétences en analyse de données (statistiques descriptives) et data-visualisation sont appréciables, de même que des connaissances sur les API de type REST.
-
-Durée : 6 mois
-
-Organisme : Direction générale de l'armement
-
-Localisation : BRUZ
-
-Gratification/Rémunération : Oui
-
-Restauration : Oui, mais au frais du candidat avec une subvention
-
-Logement : Non
+Project Description:
+The accessibility of visual content for blind or visually impaired individuals heavily relies on the quality of automatically generated textual descriptions, commonly referred to as alternative text. These descriptions play a crucial role in conveying essential information embedded in images, videos, or other visual content. However, generating descriptions that are truly useful for this audience presents several challenges. Effective descriptions must not only capture the image content but also adapt to the usage context, be concise for clarity, and precisely transmit key visual information.
+One of the significant challenges in this field is evaluating the quality of generated alternative texts. Current metrics, often based on comparisons with reference descriptions (e.g., BLEU, CIDEr, or SPICE), are ill-suited to assess the relevance and usability of descriptions from the perspective of visually impaired users. Moreover, the scarcity of datasets tailored for alternative text generation and evaluation adds another layer of complexity to the problem. Building on our prior work, including the development of the AD2AT dataset [1], consisting of 3,000 image-alternative text pairs and the ContextRef benchmark [2], this internship aims to address these challenges by focusing on reference-free evaluation of image descriptions for visually impaired users.
 
 
-Description de la mission
+Internship objectives:
+The primary objective of this internship is to deepen the analysis of this dataset to identify the key characteristics of descriptions that best meet the needs of blind or visually impaired individuals. To achieve this, we aim to examine various aspects, such as the textual richness of the descriptions, the specific parts of the image being described, and the level of semantic overlap with the global context of the image. This preliminary analysis will help establish objective and relevant criteria for evaluating the quality of automatically generated descriptions. Based on this foundation, we then plan to propose a new reference-free evaluation metric tailored to the specific accessibility requirements. The new metric we aim to develop should be capable of finely and effectively assessing image descriptions in relation to their context of appearance, while taking into account the specific needs of blind users. Finally, to validate this approach, we plan to implement a manual evaluation of our metric in collaboration with the
+Institut National des Jeunes Aveugles (INJA), with whom we have already established contact. This step will allow us to compare the automatically generated scores with feedback from end users, refining the metric to ensure its robustness.
+[1] Élise Lincker, Camille Guinaudeau and Shin'ichi Satoh. AD2AT:
+AudioDescription to Alternative Text, a Dataset of Alternative Text from Movies. In the Internation Conférence on Multimedia Modelling 2025
+[2] Kreiss, E., Zelikman, E., Potts, C., & Haber, N. ContextRef:
+Evaluating Referenceless Metrics for Image Description Generation. In
+The Twelfth International Conference on Learning Representations.
 
-Le/la stagiaire intègre une équipe technique spécialisée en traitement automatique du langage écrit et parlé, implantée sur le site de DGA-MI
-à Bruz, près de Rennes. Pour mener à bien ses activités l'équipe a besoin de disposer de moyens intégrant d'une part des capacités de capitalisation, de gestion et d'exploitation de données (corpus) servant au développement et au test de systèmes de TAL et d'autre part d'outils d'analyse de données et d'évaluation couvrant un grand nombre de tâches de traitement des données écrites et parlées. Ces moyens sont actuellement à optimiser et à intégrer dans un contexte d'évolution de nos méthodes et de nos outils de travail. Ils doivent par ailleurs être maintenus de manière à suivre l'évolution de l'état de l'art, tant en matière d'approches pour les systèmes de TAL que de métriques et de standards d'évaluation. L'objectif de ce stage est de proposer et de mettre en oeuvre des outils de gestion des données TAL et d'évaluation de datasets et de résultats de systèmes de TAL répondant à des enjeux métiers, techniques et scientifiques forts. Les travaux de stage pourront utilement se dérouler selon les 4 étapes suivantes :
+*Practicalities
+The internship will be funded 659,76 ¤ per month + reimbursement of transport costs (75% monthly or annual Navigo pass) for a duration of 5 or 6 months (starting in March or April 2025) and will take place at
+LISN within the LIPS team.
 
-    1.  Réalisation d'un état de l'art sur l'évaluation pour le TAL
-        (méthodes, outils, métriques...) ;
-    2.  Implémentation et adaptation d'un framework open-source
-        pour la gestion de données ;
-    3.  Test d'un outil open-source d'évaluation des résultats de
-        tâche en TAL ;
-    4.  Préconisations et implémentation ou adaptation d'un
-        outil d'évaluation pour répondre au besoin métier.
+Candidate Profile:
+We are seeking highly motivated candidates with the following qualifications:
+-   Education: Master's degree (M2) in Computer Science, with a
+    preference for candidates experienced in Natural Language
+    Processing (NLP), Computer Vision (CV), or Artificial
+    Intelligence (AI).
+-   Technical Skills:
+    -   Proficiency in Python and familiarity with deep learning
+        libraries such as TensorFlow, PyTorch, or Keras.
+    -   Experience in data analysis and handling multimodal datasets is
+        a plus.
+-   Soft Skills: Strong analytical abilities, an interest in
+    accessibility and human-centric AI, and the ability to work
+    independently and collaboratively in a research environment.
 
-Les choix des outils et des méthodes seront définis en coordination avec les membres de l'équipe, et ces travaux s'appuient sur des jeux de données mis à disposition du ou de la stagiaire.
-
-
-Description de la structure d'accueil
-
-DGA Maîtrise de l'information Bruz (près de Rennes) est responsable de la conception, de l'acquisition et de l'évaluation des systèmes qui équipent les forces Armées. Nos experts techniques travaillent dans les domaines innovants tels que les systèmes d'information et de communication, la cybersécurité, l'Intelligence Artificielle, la survivabilité des systèmes, la navigation, la guerre électronique et les systèmes de missiles.
-
-Adresse
-DGA MAÎTRISE DE L'INFORMATION BP 735170 BRUZ
-
-*Candidature*
-Candidature (CV en français) à soumettre à nihel.kooli@intradef.gouv.fr 
+To apply, please send your CV, a cover letter and your M1 and M2
+transcripts (if available) by email to
+Camille Guinaudeau camille.guinaudeau@universite-paris-saclay.fr and
+Michèle Gouiffès gouiffes@lisn.fr.

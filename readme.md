@@ -1,77 +1,122 @@
 # CartoStages IDéaL
 
-## L'URL : http://i3l.univ-grenoble-alpes.fr/~maxiao/cartostagesideal
-## ID et mot de passe Admin :
-### Login : admin
-### Email : admin@cartostages.com
-### Mdp : 123456
-## Outils utilisés
-### Front-end
-Bootstrap 5.0.2
-FontAwesome 6.2.1
-Leaflet 1.9.3
-OpenStreetMap
-jQuery 3.6.3
+## Description du projet
 
-### Back-end
-PHP 8.2
-Python 3.9.6
-phpMyAdmin 5.2.1
-## Struture du site
------- readme.md
------- text_files (Fichiers textutels sortant du webscrapeur)
------------- Linkedin0.txt
------------- Linkedin1.txt
------------- Linkedin_.txt
------------- Stage1.txt
------------- Stage2.txt
------------- Stage_.txt
------- fichier_html (Affichage des offres de stage plus propre)
------------- Linkedin0.html
------------- Linkedin1.html
------------- Linkedin_.html
------------- Stage1.html
------------- Stage2.html
------------- Stage_.html
------- images (Les images utilisées dans ce projet)
------------- logo.svg
------------- logo_white.svg
------------- map.png
------------- search.png
------------- plus.png
------------- network.png
------------- arrow.png
------------- bg1.png
------------- bg2.png
------------- discord.png
------------- linkedin.png
------------- facebook.png
------- styles (CSS général)
------------- style.css
------- template.php (Fichier contenant les éléments communs 'hearder' et 'footer')
------- index.php (Page d'accueil du site)
------- index_content.php (Page contenant les contenus de la page Index)
------- carte.php (Page de carte intéractive du site)
------- carte_content.php (Page contenant les contenus de la page Carte)
------- recherche.php (Page de la recherche des offres de stage du site)
------- recherche_content.php (Page contenant les contenus de la page Recherche)
------- publier.php (Page de la publication de nouvelle offre de stage et stage effectué par l'administrateur)
------- publier_content.php (Page contenant les contenus de la page Publier)
------- gestion.php (Page servant à mettre à jours des stages par l'administrateur)
------- gestion_content.php (Page contenant les contenus de la page Gestion)
------- reseau.php (Page affichant l'accès aux réseaux sociaux de Master IdL)
------- reseau_content.php (Page contenant les contenus de la page Réseaux)
------- faq.php (Page de foire aux questions / nous contacter 'non fonctionnel' du site)
------- faq_content.php (Page contenant les contenus de la page Faq)
------- db_conn.php (Fichier PHP pour la connexion à la base de données)
------- signup.php (Fichier PHP pour l'inscription des utilisateurs)
------- login.php (Fichier PHP pour la connexion des utilisateurs)
------- logout.php (Fichier PHP pour la déconnexion)
------- search.php (Ficher PHP pour la recherche statique)
------- new_scrap.php (Fichier PHP pour extraire des informations des fichiers text et les enregistrer dans la base de données, et requêter les offres actuelles)
------- submit_new.php (Ficher PHP pour l'enregistrement manuel des nouvelles offres de stage)
------- submit_passed.php (Ficher PHP pour l'enregistrement manuel des stages effectués)
------- update.php (Ficher PHP pour la mise à jour des stages depuis la page Gestion)
------- update2.php (Ficher PHP pour l'affichage des stages effectué sur la page Recherche)
------- webscrapeur.py (Fichier Python qui récupère les offres de stages depuis plusieurs sources : LinkedIn, http://w3.erss.univ-tlse2.fr/membre/tanguy/offres.html, Indeed 'non fonctionnel')
+CartoStages IDéaL est une plateforme web dédiée à la collecte, la visualisation et la gestion des offres de stages en France, en particulier pour les étudiants du Master IdL (Ingénierie des Langues) de l'Université Grenoble Alpes. Le projet permet de recenser des offres de stages provenant de différentes sources, d'afficher ces offres sur une carte interactive, et de proposer des fonctionnalités de recherche et de gestion aux utilisateurs et aux administrateurs.
 
+## Fonctionnalités principales
+
+* Affichage des offres de stages sur une carte interactive avec la localisation géographique des organismes.
+* Recherche avancée par mot-clé, lieu, durée, niveau d'études.
+* Publication et gestion des offres (réservé aux administrateurs).
+* Visualisation des réseaux de stages et accès aux informations sur les partenaires académiques.
+* Connexion et inscription des utilisateurs.
+
+## Pages de l'application
+
+### Accueil
+
+Affichage des dernières offres de stages et présentation du projet.
+
+![Accueil](./screenshot/localhost_8000_index.php.png)
+
+### Accueil (Admin)
+
+Affichage des dernières offres de stages avec accès à la publication pour les administrateurs.
+
+![Accueil Admin](./screenshot/accueil_for_admin.png)
+
+### Carte
+
+Carte interactive affichant les lieux de stages avec des marqueurs et des informations détaillées sur chaque offre.
+
+![Carte](./screenshot/localhost_8000_carte.php.png)
+
+### Recherche
+
+Page permettant de rechercher des offres selon différents critères (lieu, durée, niveau, mots-clés).
+
+![Recherche](./screenshot/localhost_8000_recherche.php.png)
+
+### Réseaux IDL
+
+Présentation des partenaires académiques et professionnels du Master IdL.
+
+![Réseaux IDL](./screenshot/localhost_8000_reseau.php.png)
+
+### À propos
+
+Informations sur le projet et les auteurs.
+
+![À propos](./screenshot/localhost_8000_faq.php.png)
+
+### Publier (Admin)
+
+Page réservée aux administrateurs pour publier de nouvelles offres de stage.
+
+![Publier](./screenshot/localhost_8000_publier.php.png)
+
+### Gestion (Admin)
+
+Gestion des offres publiées : modification, suppression et archivage.
+
+![Gestion](./screenshot/localhost_8000_gestion.php.png)
+
+### Publier (Admin)
+
+Page réservée aux administrateurs pour publier de nouvelles offres de stage après connexion.
+
+![Publier](./screenshot/admin_panel.png)
+
+### Connexion et Inscription
+
+Fenêtre modale permettant aux utilisateurs de se connecter ou de créer un compte.
+
+![Connexion](./screenshot/login_panel.png)
+
+## Installation et exécution en local
+
+### Prérequis
+
+* Docker et Docker Compose
+
+### Étapes
+
+1. Cloner le dépôt GitHub :
+
+```
+git clone https://github.com/DJOMIDO/cartostagesideal.git
+```
+
+2. Accéder au répertoire du projet :
+
+```
+cd cartostagesideal
+```
+
+3. Démarrer les services Docker :
+
+```
+docker-compose up --build
+```
+
+4. Accéder à l'application dans votre navigateur :
+
+```
+http://localhost:8000
+```
+
+5. Accéder à PhpMyAdmin pour gérer la base de données :
+
+```
+http://localhost:8080
+```
+
+## Auteurs
+
+* Florine HECQUET
+* Xiao MA
+
+## Licence
+
+Ce projet est réalisé dans le cadre du Master IdL 2021-2023 et est sous licence MIT.

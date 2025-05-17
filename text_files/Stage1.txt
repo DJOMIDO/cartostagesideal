@@ -1,87 +1,29 @@
-Titre: Résolution de liens bibliographiques pour l'extraction de données primaires
-Date: 2023-02-01
-Organisme: Nextino
-Lieu: Orléans
+Titre: Vers des IA plus fiables : exploration de l’injection de connaissances dans un LLM
+Date: 2025-03-14
+Organisme: INRAE
+Lieu: Jouy-en-Josas
 
 
+Nous recherchons un·e stagiaire pour le sujet suivant :
 
-Nextino propose le sujet de stage ci-dessous de Mars à Juin 2023.
+Description :
 
-Offre de stage : Résolution de liens bibliographiques pour l'extraction de données primaires
-
-
-# Contexte
-
-Nextino est un centre de recherche en intelligence artificielle dédié à l'innovation dans le domaine de la protection des données. Au sein du Département Innovation et Technologies, vous rejoindrez une équipe dédiée aux travaux autour du Traitement Automatique des Langues (TAL).
-
-Dans le cadre d'un partenariat avec le BRGM, une première étude a permis de mettre en exergue un besoin autour du traitement automatique de la littérature scientifique.
-
-En effet, le BRGM cherche à développer ses activités d'observation du cycle de vie des métaux sur les aspects techniques, économiques et environnementaux. Cela nécessite de fouiller une grande quantité d'articles scientifiques afin d'en extraire des informations pertinentes et de qualité (quantité, origine des sources documentaires... selon les problématiques soumises par les experts du
-BRGM).
-
-L'objectif de ce partenariat est de développer un outil d'aide à la fouille qui réduirait le temps passé par les scientifiques sur cette tâche chronophage. Il s'agira d'abord d'identifier les documents dans lesquels il est question de la ressource minérale recherchée et d'extraire les passages pertinents. Dans un second temps, il sera nécessaire de résoudre les liens bibliographiques pour retrouver la source originale afin d'en certifier sa fiabilité.
-
-Le stage que nous proposons s'inscrit dans la deuxième étape du projet concernant la recherche de la source originale de la donnée pour fiabiliser l'information extraite en première étape. Ce projet implique des tâches d'analyse du contexte de citation [1,2] pour détecter si l'information extraite est originale ou si elle provient d'une autre publication citée. Afin de retrouver la source originale, il sera également nécessaire d'explorer les tâches de de Citation et Reference
-Linking [3,4].
+Les grands modèles de langue (Large Language Model - LLM) conversationnels montrent depuis fin 2022 des performances impressionnantes sur de nombreuses tâches, mais leur capacité à fournir des réponses robustes et factuellement exactes reste une question ouverte. Le stage abordera l'injection de connaissances dans un LLM
+pour explorer la véracité et la cohérence de ses réponses. La cohérence est ici au sens d'avoir la même réponse aux mêmes requêtes (même si formulées différemment) malgré le caractère pseudo-aléatoire des LLMs.
+La véracité est ici au sens de fournir la bonne réponse à une requête sur un fait décrit formellement dans une base de connaissance. Il s'agira concrètement d'injecter des connaissances décrites dans une base de connaissances par une méthode Retrieval-Augmented Generation (RAG) à un modèle (par exemple un Llama 3 8B), et d'étudier les réponses. Le RAG a l'avantage de permettre d'éviter une phase d'apprentissage automatique très consommatrice de moyens de calcul à haute performance. Les résultats de ce travail pourraient permettre de mieux comprendre les limites et opportunités des LLM dans des contextes nécessitant une précision factuelle. Cela contribuera à la préparation d'un poster/article scientifique pour une conférence du domaine de recherche (ex : PFIA).
 
 
-# Description du stage
+Compétences :
 
-Le stage se déroule en partenariat avec le BRGM. Le stagiaire sera donc amené à collaborer avec des interlocuteurs du BRGM pour avancer sur son sujet.
-
-Deux corpus d'articles scientifiques ont été constitués par nos partenaires contenant des publications en français et très majoritairement en anglais.
-
-
-# Tâches principales à réaliser :
-
--   Etat de l'art sur les tâches suivantes : Citation Context Analysis,
-    Reference Linking, Citation Linking et d'autres problématiques
-    connexes à notre problématique
--   Prise en main de la première partie du projet sur l'extraction
-    d'information
--   Expérimentation des approches identifiées dans la littérature et/ou
-    développement de son propre algorithme
--   Evaluation du système sur nos corpus et par des experts du BRGM
--   Intégration de la solution à la première partie du projet
+-   Programmation informatique, notamment Python.
+-   Une expérience avec la manipulation de LLM par API serait un plus.
+-   Rédaction et communication scientifique.
+-   Un attrait pour la recherche scientifique.
 
 
-# Profil recherché
+Informations :
 
--   Niveau bac +4/+5 en Traitement Automatique des Langues ou
-    Datascience avec bases en TAL
--   Connaissances en Machine Learning et TextMining
--   Connaissances en Deep Learning appréciées
--   Bon niveau en Python
--   Anglais lu et écrit
+Lieu : Laboratoire MaIAGE, centre INRAE de Jouy-en-Josas (78)
+Gratification : selon la grille réglementaire (soit environ 669,90¤/mois)
 
-
-# Informations sur le stage
-
--   Lieu : Orléans, le Lab'O (pas de télétravail sauf
-    occasionnellement)
--   Gratification : Selon les règles en vigueur + tickets
-    restaurant
--   Durée du stage : 4 mois de Mars à Juin 2023
--   Contact :
-    - bernard.peultier@nextino.eu
-    - asceline.goudjo@nextino.eu
-
-
-# Références
-
-[1] Karim, M., Missen, M.M.S., Umer, M., Sadiq, S., Mohamed, A.,
-    Ashraf, I. (2022). Citation Context Analysis Using Combined Feature
-    Embedding and Deep Convolutional Neural Network Model. Applied
-    Sciences. 12(6):3203.
-    https://doi.org/10.3390/app12063203
-
-[2] Eto, M. (2019). Extended co-citation search: Graph-based document
-    retrieval on a co-citation network containing citation context
-    information. Inf. Process. Manage., 56.
-
-[3] Lo, K., Wang, L.L., Neumann, M., Kinney, R.M., & Weld, D.S. (2020).
-    S2ORC: The Semantic Scholar Open Research Corpus. ACL.
-
-[4] Nomoto, T (2018). Resolving Citation Links With Neural Networks.
-    Front. Res. Metr. Anal. 3:31
-
+Pour plus d'informations et pour candidater : https://maiage.inrae.fr/node/3198

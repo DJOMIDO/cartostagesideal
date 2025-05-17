@@ -1,60 +1,66 @@
-Titre: Analyse sémantique et spatialisée des sentiments exprimés dans les Cahiers citoyens
-Date: 2023-01-03
-Organisme: EHESS & IGN
-Lieu: Paris & Saint-Mandé
+Titre: Text-image QA corpus based on educational content
+Date: 2025-01-09
+Organisme: LISN
+Lieu: Orsay
 
 
+Title: Text-image QA corpus based on educational content
 
-Analyse sémantique et spatialisée des sentiments exprimés dans les
-Cahiers citoyens
+SUPERVISORS
+Thomas Gerald, Sahar Ghannay, and Anne Vilnat
 
-Lors du Grand débat national (GDN), des Cahiers de doléances renommés ensuite Cahiers citoyens (CC) ont été déposés dans les mairies et remplis librement par les personnes qui le souhaitaient. Ces Cahiers représentent un corpus à la fois considérable et précieux car complémentaire des corpus issus des plates-formes numériques ouvertes à l'occasion du GDN. Ils ont été numérisés puis transcrits sous l'égide de la BNF et conservés aux Archives nationales ; leur analyse portant à la fois sur la dimension géographique et sémantique permettrait d'avoir un regard ancré dans un contexte géographique de la parole des citoyen.nes. Le stage proposé vise à faire un pas dans cette direction à l'aide de méthodes du traitement automatique des langues et de modèles de langues. Le travail portera sur le développement d'une analyse de sentiments des CC qui tiendra compte du bruit dans le texte issu de la transcription et d'une nécessité d'anonymisation. Les objectifs du stage sont particulièrement :
+Keywords: Natural Language Processing, Question Answering, Visual
+Question Answering, Corpus annotation, Deep-Learning
 
-    -   faire l'état de l'art des approches pour l'analyse de
-        sentiments (incluant perceptions, émotions et opinions),
-    -   mettre en oeuvre une approche d'analyse de sentiments des
-        contributions contenues dans les Cahiers ,
-    -   spatialiser les contributions à l'aide de leurs métadonnées et
-        d'un modèle existant pour identifier les informations de
-        localisation contenues dans les contributions (par ex.
-        CamemBERT-NER)
-    -   définir des consignes d'annotation en vue de constituer des
-        jeux d'évaluation, et d'évaluer la pertinence de l'approche
-        proposée.
+Project Description:
+Using deep learning architectures to embed text and images has matured today, especially in visual question-answering. While working efficiently on photographs, few approaches are efficient when working with complex images or schema (such as diagrams or maps) jointly with textual information. The objectives of this project are twofold: (a) create a multi-modal corpus containing both images (in particular schematics) and text on educational documents such as school books or encyclopedic resources; (b) provide insightful experiments to embed text and images for questions and answers generation.
+The first step will be to consider previous works achieved in question-answering based on schoolbook content to propose alignment methods between existing questions and complex images (maps, schematics, diagrams and others) leveraging deep architectures for text-image alignment (as the clip family of models [1]).
+As previously collected annotated data only rely on textual information, we will augment the dataset by considering multi-modal generative approaches [2]. To this end, we plan to use/develop an automatic labelling framework to annotate in-context content. To validate annotations, human experts will evaluate the annotation to ensure the consistency of the data.
 
-
-Bibliographie (à titre indicatif)
-
-Birjali, M., Kasri, M., & Beni-Hssane, A. (2021). A comprehensive survey on sentiment analysis: Approaches, challenges and trends.
-Knowledge-Based Systems , 226 , 107134.
-
-Ploux, S. Genay, M., Ploux-Chillès, L. (2021) Les mots du Grand
-Débat national : les réseaux lexicaux des contributions déposées sur trois plateformes, Humanités numériques .
-DOI: https://doi.org/10.4000/revuehn.2655
-
-Yadav, A., & Vishwakarma, D. K. (2020). Sentiment analysis using deep learning architectures: a review. Artificial Intelligence Review , 53 (6), 4335-4385.
-
-Dominguès, C. Jolivet, L. Brando , C. Cargill, M. (2019). Place and
-Sentiment-based Life story Analysis, Revue française des sciences de l'information et de la communication
-DOI: https://doi.org/10.4000/rfsic.7228
+Internship objectives:
+The primary objective of the internship will be to develop/propose methods to leverage automatic annotation of complex documents, particularly the study of approaches to generate questions and answers from visual and textual contexts.
+In parallel, the intern and the laboratory team will propose/define annotation schemes, for instance, define a typology of questions/answers [3], e.g. some answers to questions could rely on a different part of the document (such as in multi-hop question-answering) [4], require deduction or reasoning, or rely on different types of media (maps, diagrams or others).
+The intern will start from a collection of documents based on Wikipedia content related to education topics (mainly high-school topics beginning with history, geography and biology) containing the text of articles and images (open-source images only). A filtering approach will be developed to focus on infographic content by leveraging different information from the resources (visual, metadata, Wikipedia categories or others). Other sources, such as university courses and content, will be envisioned depending on the progress.
+For the last part of the internship, the intern will focus on evaluation metrics and approaches to assess the relevance of the corpus. An evaluation of LLMs adapted to the content could be envisioned if time allows.
 
 
-Compétences et aptitudes recherchées
+Practicalities
+The internship will be funded 659,76 ¤ per month for a duration of 5 or 6 months (starting in March or April 2025) and will take place at
+LISN within the SEME and LIPS teams.
 
--   Maîtrise du langage de programmation Python (obligatoire)
--   Connaissances en traitement automatique des langues et
-    apprentissage automatique (obligatoire)
--   Appétence pour les sciences sociales
+Candidate Profile:
+We are looking for a highly motivated candidate with the following qualifications:
+-   Education: Master's degree (M2) in Computer Science/NLP, with a
+    preference for candidates experienced in Natural Language
+    Processing (NLP) or Artificial Intelligence (AI).
+-   Technical Skills:
+    -   Proficiency in Python and familiarity with deep learning
+        libraries such as TensorFlow, PyTorch, or Keras.
+    -   Experience in data analysis and information extraction tools,
+-   Soft Skills: Strong analytical abilities and the ability to work
+    independently and collaboratively in a research environment.
 
-Gratification : environ 650¤/mois (4,05¤/h), 50 % d'un abonnement de transport (ex. Navigo) remboursés et accès au restaurant administratif à un tarif préférentiel (environ 2,5¤ par repas).
 
-Localisation : 54 boulevard Raspail, 75006 Paris et 73 avenue de Paris 94160 Saint-Mandé ; télétravail partiel possible.
+Contact
+To apply, please send your resume and a cover letter to :
+-   thomas.gerald@universite-paris-saclay.fr
+-   sahar.ghannay@universite-paris-saclay.fr
+-   anne.vilnat@universite-paris-saclay.fr
 
-Durée : 5 mois.
 
-Comment candidater ?
+Bibliography
+-   [1] Liu, H., Li, C., Wu, Q., and Lee, Y. J. (2023). Visual
+    instruction tuning. In NeurIPS
+-   [2] Radford, A., Kim, J. W., Hallacy, C., Ramesh, A., Goh, G.,
+    Agarwal, S., Sastry, G., Askell, A., Mishkin, P., Clark, J.,
+    Krueger, G., and Sutskever, I. (2021). Learning transferable visual
+    models from natural language supervision.
+-   [3] Gerald, T., Vilnat, A., Ettayeb, S., Tamames, L., and Paroubek,
+    P. (2024). Introducing cquae: A new French contextualised
+    question-answering corpus for the education domain. In LREC/COLING,
+    pages 9234-9244. ELRA and ICCL.
+-   [4]  Yang, Z., Qi, P., Zhang, S., Bengio, Y., Cohen, W. W.,
+    Salakhutdinov, R., and Manning, C. D. (2018). Hotpotqa: A dataset
+    for diverse, explainable multi-hop question answering. In EMNLP,
+    pages 2369-2380. Association for Computational Linguistics.
 
-Envoyer un CV et une lettre de motivation à
-Carmen Brando ( carmen.brando@ehess.fr ),
-Sabine Ploux ( sabine.ploux@ehess.fr ) et
-Catherine Dominguès ( catherine.domingues@ign.fr ) 

@@ -1,0 +1,40 @@
+services:
+  web:
+    build: .
+    container_name: cartostages_web
+    ports:
+      - "8000:80"
+    volumes:
+      - ./src/:/var/www/html/
+      - ./text_files/:/var/www/html/text_files/
+      - ./fichier_html/:/var/www/html/fichier_html/
+    depends_on:
+      - db
+
+  db:
+    image: mysql:5.7
+    platform: linux/amd64  # 强制使用 AMD64 镜像
+    container_name: cartostages_db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: cartostages
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    platform: linux/amd64  # 强制使用 AMD64 镜像
+    container_name: cartostages_phpmyadmin
+    restart: always
+    ports:
+      - "8080:80"
+    environment:
+      PMA_HOST: db
+      MYSQL_ROOT_PASSWORD: root
+
+volumes:
+  db_data:

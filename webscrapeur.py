@@ -16,7 +16,7 @@ import io
 '''
 Obtention du dossier des fichiers textes
 '''
-roadPare = "/home/IdL/2021/maxiao/public_html/cartostagesideal"        	# obtenir le chemin du dossier
+roadPare = "/Users/xiaoma/cartostagesideal"        	# obtenir le chemin du dossier
 pathFile = roadPare+"/text_files"                       				# definir le chemin des dossier .txt
 if not os.path.exists(pathFile):                       					# Si le dossier n'existe pas encore, creer un
      os.makedirs(pathFile, 0o777)

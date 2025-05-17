@@ -1,51 +1,82 @@
-Titre: Méthodes d'évaluation pour le résumé automatique de document
-Date: 2023-01-03
-Organisme: EDF R&D
-Lieu: Palaiseau
+Titre: Développement d'un système de Speech-to-Text (STT) pour la langue bretonne
+Date: 2025-01-14
+Organisme: LIASC
+Lieu: Saint-Denis
 
 
+**
+
+**OFFRE DE STAGE **TRAITEMENT AUTOMATIQUE DES LANGUES** (6 mois, niveau Master)
+
+***
+
+Durée du stage : 6 mois (début : février 2025)
+
+Date limite de candidature : 25 janvier 2025
+
+Gratification : montant légal en vigueur (environ 600¤ / mois).
+
+Laboratoire d'accueil : Équipe PASTIS du LIASD (EA 4383), Université
+Paris 8, 2 rue de la liberté, 93 526 Saint-Denis
+
+Document au format PDF : https://alicemillour.github.io/assets/stage_LIASD2025.pdf
+
+      *Sujet de Stage : Développement d'un système de
+      Speech-to-Text(STT) pour la langue bretonne*
+
+**
+
+Contexte
+
+Ce sujet de stage s'inscrit dans le contexte de la langue bretonne : en danger de disparition selon les critères de l'UNESCO, ses locuteurs et locutrices disposent de peu d'outils logiciels adaptés à leurs pratiques (Jouitteau 2023, Jouitteau & Bideault 2023). Le développement d'un système de reconnaissance vocale automatique(Automatic Speech
+Recognition, ASR, ou Speech-to-text, STT) adapté au contexte linguistique du bretonconstitue notamment un besoin urgent. Les locuteur.ices, créateur.ices de contenu en ligne et journalistes demandent explicitement à pouvoir utiliser les mêmes facilités de dictée, sous-titrage et transcription automatiques qu'ils et elles utilisent déjà en français et en anglais.
 
 
-Titre : Méthodes d'évaluation pour le résumé automatique de document
-H/F
+Objectifs du stage :
 
-*Contexte et objectifs*
+L'objectif du stage est de développer et d'évaluer un prototype de système speech-to-textcapable de convertir la parole en breton en texte écrit. Ce système pourra être utilisé pour des applications telles que la transcription de discours, la création de sous-titres automatiques, ou la reconnaissance vocale dans des interfaces utilisateurs en breton.
 
-La R&D d'EDF (2000 chercheurs) a pour missions principales de contribuer à l'amélioration de la performance des unités opérationnelles du groupe EDF, d'identifier et de préparer les relais de croissance à moyen et long terme. Dans ce cadre, le département
-Services, Economie, Outils Innovants et IA (SEQUOIA) est un département pluridisciplinaire (sciences de l'ingénieur, sciences humaines et sociales) qui fournit un appui à l'élaboration et au portage des offres, des services et des outils de relation client aux directions opérationnelles du groupe EDF.  Au sein de ce département, ce stage sera rattaché au groupe « Statistiques et Outils d'Aide à la
-Décision » (SOAD) qui compte une vingtaine d'ingénieurs chercheurs spécialisés en Data Science.
+Le ou la stagiaire étudiera les ressources et systèmes existants (Inventaire des ressources numériques pour le breton https://entrelangues.modyco.fr/index.php/Breton#Ressources_num%C3%A9riques, dont Duval-Guennoc 2022 & Vangberg & Farhat 2023). Après un état de l'art des méthodes récentes de transcription automatique en contexte peu doté, l'étudiant.e exploitera les jeux de données existants, tels que Common Voice (Ardila et al., 2019) afin d'entraîner et d'évaluer un modèle adapté.
 
-Les modèles d'Intelligence Artificielle pour les données textuelles et orales ont connu des avancées techniques importantes depuis la création de l'architecture « Transformer » en 2017 (Vaswani et al., 2017), un réseau de neurones profond. Plusieurs cas d'usages de ces modèles ont été explorés à EDF R&D, comme le résumé automatique de document long.
-Evaluer la qualité des résumés produits à partir de textes longs est un processus long et complexe. Pour cette raison, des évaluations automatiques avec des mesures quantitatives telles que le score ROUGE
-sont fréquemment utilisées. Ces méthodes montrent toutefois des limites sur la compréhension des erreurs commises par le modèle. Ce sujet de stage a vocation à étudier des méthodes d'évaluation automatiques de résumé permettant de rendre compte de phénomènes plus complexes, comme les hallucinations (contenu généré non présent dans le texte d'origine), ou des reformulations (contenu généré fidèle au texte d'origine, formulé différemment).
+Ce stage s'adresse aux étudiant.es de Master 2 d'informatique ou de traitement automatique des langues.
 
 
-*Etapes du stage :*
+*Candidature*
 
--   Dresser un état de l'art des méthodes d'évaluation de résumé dans
-    le domaine du TAL
--   Sélectionner des méthodes d'évaluation existantes et/ou proposer
-    une nouvelle méthode
--   Implémenter et tester la(les) méthode(s) d'évaluation sur des
-    résumés générés automatiquement
+Les candidatures sont à adresser à :
 
-*Profil recherché :*
+-   Alice Millour, LIASD, Université Paris 8 Vincennes Saint-Denis,
+    am@up8.edu
 
--   Etudiant(e) en Master 1 ou 2 ou équivalent école d'ingénieur
--   Compétences en Traitement Automatique du Langage Naturel (NLP)
--   Compétences en Apprentissage Automatique (Machine Learning)
--   Bon niveau en Python
--   Bon niveau de rédaction en français et en anglais
--   Des compétences en Apprentissage Profond (Deep Learning) seront
-    appréciées
--   Curiosité scientifique, intér=EAt pour la recherche
+-   Loïc Grobol, MoDyCo, Université Paris Nanterre,
+    lgrobol@parisnanterre.fr
 
-Lieu : Groupe SOAD (Statistique et Outils d'Aide à la Décision), département SEQUOIA d'EDF Lab Paris-Saclay, 7 boulevard Gaspard Monge, 91120 Palaiseau
+Le ou la stagiaire sera accueilli.e dans les locaux de l'Université
+Paris 8 au sein du laboratoire LIASD. Ce travail fait l'objet d'une collaboration avec l'Université Paris Nanterre, le laboratoire CNRS
+IKER et l'université de Bangor (UK), inclura la participation à un workshop collectif prévu en mars 2025 à Brest.
 
-Durée : 6 mois
 
-Début souhaité : mars 2023
+*Références*
 
-*Contact*
+-   Ardila, Rosana, Megan Branson, Kelly Davis, Michael Henretty,
+    Michael Kohler, Josh Meyer, Reuben Morais, Lindsay Saunders,
+    Francis M. Tyers and Gregor Weber. 2019"Common Voice: A
+    Massively-Multilingual Speech Corpus." ArXivabs/1912.06670.
 
-Transmettre par mail un CV et une lettre de motivation à: meryl.bothua@edf.fr, sabrina.campano@edf.fr (Département SEQUOIA).
+-   Duval-Guennoc Gweltaz. 2022-présent. Anaouder, a VOSK model for the
+    Breton language.
+
+-   Jouitteau Mélanie. 2023.Community Internally-driven Corpus
+    Buildings. Three Examples from the Breton Ecosystem. Proc. of the
+    2nd Annual Meeting of the ELRA/ISCA SIG on Under-resourced
+    Languages (SIGUL 2023), 103-107, doi: 10.21437/SIGUL.2023-22.
+
+-   Jouitteau Mélanie et Bideault Reun. 2023. Outils numériques et
+    traitement automatique du breton, Annie Rialland, Michela Russo
+    (dir.), Langues régionales de France: nouvelles approches,
+    nouvelles méthodologies, revitalisation, Éditions de la Société de
+    Linguistique de Paris, 37-74.
+
+-   Vangberg, Preben & Leena Farhat. 2023. 'Speech-to-text for Breton',
+    présentation à la Celtic Student Conference, 30 Mars 2023, Glasgow,
+    United Kingdom.

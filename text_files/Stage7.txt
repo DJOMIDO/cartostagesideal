@@ -1,91 +1,80 @@
-Titre: Data Scientist NLP
-Date: 2023-01-16
-Organisme: Sense4data
-Lieu: Bordeaux
+Titre: Web structure extraction
+Date: 2025-01-27
+Organisme: Ideactiv
+Lieu: Télétravail
 
 
-QUI NOUS SOMMES
-Sense4data est une société bordelaise créée en 2018; Jeune Entreprise
-Innovante (statut JEI), l'entreprise opère sur des problématiques de
-Recherche et Développement appliquées à l'Industrie dans le domaine de la donnée (IA, Data Science et Data Ingénierie). Notre société compte actuellement une quinzaine d'ingénieurs et de chercheurs en mathématiques, informatique et sciences de la donnée.
+Titre :  Web structure extraction
 
-CE QUE L'ON FAIT
-sense4data est une entreprise d'ingénierie et de services informatiques réparties en trois activités :
+Description :
 
--   AI Center of Excellence : Vente de services IA et IT pour les ETI
-    et grands groupes afin de fournir aux Directions des Systèmes
-    d'Informations, un haut niveau de R&D et des technologies Data
-    innovantes (machine learning, computer vision, NLP...).
+a. ideactiv is a young start-up heavily relying on NLP in order to read that data of cultural events on the website of cultural organisations (theatres, show venues, etc.). This allows these organisations to share their events with cultural media and promote them without any manual operation.
 
--   Software publishing : Conception de logiciels intégrant de
-    l'intelligence artificielle afin de répondre aux enjeux
-    technologiques, écologiques et éthiques.
+ideactiv reads ~15 000 events per 24 hours, on the website of ~10 000
+organisations. Data can be seen on www.ideactiv.com
 
--   Technological Partnership : Intégration de modules technologiques
-    développés par nos chercheurs, ingénieurs pour les revendeurs de
-    solutions logicielles.
+ideactiv has beencreated by Thomas Chenevier, an alumnus of Ecole
+Polytechnique. It is used daily by hundreds of cultural organisations, and by national cultural media.
+
+Working for ideactiv is a great opportunity to get experience on "deep search engines", ie search engines that index objects according to their meaning and not just web pages according to their content.
 
 
-POURQUOI NOUS REJOINDRE :
-Nous avons de vraies perspectives d'évolution de carrière à proposer à nos talents avec un management bienveillant et l'opportunité de pouvoir développer des projets novateurs et impactant. En tant que jeune société innovante, chaque individu participe au développement d'une culture inclusive et durable. Des activités sportives, du mécénat de compétences et du bénévolat sont organisés très régulièrement pour développer la cohésion de groupe mais aussi renforcer le développement personnel de tous nos collaborateurs.
+b. Topic. For the reading process to be efficient, ideactiv first generates, for each website, a series of rules that describe where each field (title, date, address, description, price...) of the event should be found in the DOM of the website of the cultural organization.
+
+Here are very simple examples:
+
+-   "the title is the content of the HTML tag <h1>"
+
+-   "the date begins after the tag beginning with <div class="date''
+    and ends just beforethe tag <footer>"
+
+-   "the date begins after the first tag <div class="date''> placed
+    before the string "Today", and ends just before the tag <footer>"
+
+This requires to beable to detect the presence of cultural events in the organization's website, then to detect its structure, then to detect the nature of the nodes of this structure, and finally to generate these rules.
+
+The internship will focus on this last step (rules generation). It is a process that takes 5 to 20 minutes for a trained adult, depending of the difficulty, and that is not trivial. For example:
+
+i.  Many different rules can be chosen. The solution must favour
+    rules whichmake sense from a "human" perspective:
+
+-   rules which are "semantically rich". For example; it is better to
+    chose a tag like <divclass="date"> than a purely style tag like
+    <spanstyle"font:12px">.
+
+-   rules which are simple and which make sense from a "html"
+    perspective. For example, it is better to choose a rule like
+    "the whole content of the html component beginning with
+    <div class="date">" than "the excerpt than begins with
+    <div class="da and that ends up with the second </div".
+
+ii. The rules definition process must also factor in the reading
+    abilities of the system. For example, since the system can extract
+    a phone number or an address from a larger text, it is better to
+    set a "good" rule that will lead to a larger text containing the
+    phone number or address, than a "bad" rule leading to the
+    extraction of just the data we want.
 
 
-MISSIONS PRINCIPALES
 
--   En tant que stagiaire Data Scientist NLP, vous aurez l'opportunité
-    de travailler sur des projets passionnants et de mettre en pratique
-    vos connaissances en matière de traitement du langage naturel.
+For the internship, theinput to the rule generation process is (for a series a websites) a tabledescribing the common structure and the content of a sample of events (typically 5 to 12 events). This table will be produced by ideactiv. The challenge is, for each website and each field, to extract "good" rules (see above) based on these samples.
 
--   Vous serez chargé de participer à des projets de recherche et de
-    développement en traitement du langage naturel.
+The goal of theinternship is to produce a system able to work in production, working autonomously behind an API, with a code that is clean and commented so that it can be maintained and improved over time after the internship.
 
--   Vous serez impliqué dans toutes les étapes du projet, de la
-    collecte et du traitement des données à la mise en oeuvre et à
-    l'évaluation des modèles.
-
--   Vous travaillerez en mode Agile en étroite collaboration avec une
-    équipe de data scientists et data engineers expérimentés et aurez
-    l'occasion de développer vos compétences en NLP et en apprentissage
-    automatique.
+The system developed must be as frugal as possible, and must therefore not rely on third party services.
 
 
-TON PROFIL
+c. Support fromideactiv
 
--   Dernière année d'école d'ingénieur, Master 2 ou équivalent,
-    idéalement en traitement du langage naturel.
--   Forte appétence en traitement du langage naturel (NLP)
--   Bonnes connaissances en programmation Python
--   Bonnes connaissances en statistiques et en apprentissage
-    automatique (NLTK, Spacy, BERT, Pandas, Numpy, Scikit-learn,
-    Pytorch, Tensorflow...)
--   Connaissances des bases de données relationnelles (SQL)
--   Versioning de code avec Git
--   Compétences en communication
--   Capacité à travailler de manière autonome et en travail en équipe
+ideactiv will providelots of data to train and test the system, and a great knowledge of theseissues.
 
- Les plus :
+ideactiv will inparticular provide real-time feedback on the quality of the rules produced, andit will be possible to actually test the usability of these rules by using themas an input to the actual reading of the website where the events come from.
 
--   Expérience en extraction d'informations et structuration de données
--   Expérience en Topic Modeling et Sentiment Analysis.
+ideactiv will also provide microservices (API endpoints) to determine if a text contains a date, aphone number, a price, an address, etc. That is necessary to address topic b.iiabove.
 
 
-MODALITÉS
+d. The internship will be mostly remote, with regular online sessions and some in person sessions with ideactiv developer (who is based in Brussels and can come to Paris).
 
--   Où : Bordeaux (télétravail partiel).
--   Format : Conventionné.
--   Durée : 6 mois.
--   Quand : À partir de février 2022.
--   Gratification : selon convention + TR + Moitié titre de transport.
+If the internship proves successful, ideactiv might provide hiring opportunities as of summer 2025, in order to deepen the research and development on these topics.
 
-
-PROCESSUS - (réponse en 10 jours)
-
-halima.ahamadi@sense4data.com
-
--   Call avec Halima - 15 min.
--   Cas pratique à faire à la maison.
--   2ème appel avec Halima accompagnée d'un membre d'équipe pour
-    pitcher ton use case.
--   Débrief en interne.
--   Bienvenue à Bord
-
+e. Please send your questions, motivation for these topics and applications to thomas@ideactiv.com Applications are expected end of January / early February 2025, for an internship that should start btw February and April, and last for at least 4 months.

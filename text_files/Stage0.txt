@@ -1,40 +1,60 @@
-Titre: Linguistique de corpus et Humanités numériques
-Date: 2023-02-13
-Organisme: Centre Interlangues - TIL
-Lieu: Télétravail ou Dijon
+Titre: Traitement et valorisation de données océanographiques
+Date: 2025-04-28
+Organisme: SCAI
+Lieu: Paris
 
 
-Centre Interlangues TIL - Université de Bourgogne (Dijon)
+Voici une offre de stage pour Master TAL, Informatique ou HN.
 
-Stage en linguistique de corpus. Humanités numériques
+"Traitement et valorisation de données océanographiques"
 
-Dans le cadre du projet de recherche PESACA (post-édition semiautomatique à partir du corpus agroalimentaire) du Centre
-Interlangues TIL de l'Université de Bourgogne, l'équipe recherche un stagiaire pour participer au traitement automatique du langage naturel.
-Le but du projet est d'améliorer la qualité des sorties de systèmes de traduction automatique neuronale en français langue de spécialité à travers l'entraînement d'un modèle de post-édition.
-La mission du stagiaire s'articule de la façon suivante :
-1.  L'exploration d'un corpus comparable (français/ anglais) en langue
-    de spécialité.
-2.  Le nettoyage et l'annotation du corpus (POS tagging + cadres
-    sémantiques).
-Ces spécifications sont non-exhaustives et pourront évoluer tout au long du stage.
+Contexte:
+Ce stage s'inscrit dans un projet de recherche mené à l'Observatoire
+Océanologique de Banyuls-sur-Mer (OOB) visant à exploiter des registres météorologiques (1900-1912) et des journaux de bord (1883-1909) pour l'étude de l'évolution des conditions océaniques. Ces documents historiques, représentant un corpus de 3 500 pages, contiennent, entre autres, des informations précieuses sur la température de l'eau, l'état de la mer et du vent.
 
-PROFIL : Niveau Master minimum en Linguistique informatique ou équivalent, spécialités Traitement Automatique du Langage, Traduction
-Automatique, Traitement Automatique du Langage Naturel, Linguistique
-Informatique.
-Le stagiaire devra faire preuve d'autonomie, de curiosité et d'esprit critique afin de mener sa mission à bien.
-Durée : stage de 3 à 6 mois. (à pourvoir dès que possible)
-Lieu : télétravail ou Dijon (21)
+Objectifs:
 
-Connaissances et/ ou intérêts pour :
--   Logiciels : Python, OpenCV, Sketch Engine, AntConc.
--   XML EAD, TXT, machine learning, BERT, framenet
--   Linguistique de corpus. Traitement des langues. Représentation des
-    connaissances.
--   Aisance en programmation.
--   Manipulation de bases de données volumineuses.
+-   L'objectif du stage est de participer au pipeline de traitement de
+    ces données, depuis leur numérisation jusqu'à leur intégration dans
+    un chatbot RAG (Retrieval-Augmented Generation), afin de faciliter
+    l'accès et l'interrogation de ce patrimoine scientifique:
+-   Concevoir et mettre en oeuvre un pipeline de traitement de
+    données textuelles :
+-   Extraction automatique de texte à partir de documents historiques
+    (OCR/HTR)
+-   Nettoyage, normalisation, structuration sémantique des données
+-   Extraction d'entités et d'informations clés (température, date,
+    conditions météo...)
+-   Intégration dans une base de données interrogeable via un
+    système RAG (Retrieval-Augmented Generation)
 
-Envoyez votre candidature à
-Luz MARTINEZ - Luz.martinez-villermosa@u-bourgogne.fr
-MCF en Langues Étrangères Appliquées. UFR Langues et Communication.
-Université de Bourgogne.
-EA 4182 Centre Interlangues - Texte, Image, Langage 
+Profil recherché:
+
+-   Master 1 ou 2 en TAL, informatique, HN, data science ou équivalent.
+-   Maîtrise de Python et de bibliothèques NLP (Transformers, spaCy,
+    etc.).
+-   Expérience avec LangChain, LlamaIndex, Haystack ou outils similaires.
+-   Une expérience en OCR/HTR et en bases de données est un plus.
+-   Notions en base de données, visualisation ou développement frontend.
+-   Intérêt pour les documents patrimoniaux et les approches
+    interdisciplinaires
+
+Apports:
+Acquisition de compétences en traitement de documents historiques,
+OCR/HTR, annotation et structuration de corpus, extraction d'informations et développement d'un chatbot basé sur RAG appliqué aux sciences de l'environnement.
+
+Encadrement : Équipe interdisciplinaire (océanographie, TAL, HN)
+
+Conditions du stage:
+
+-   Lieu de travail : SCAI, Sorbonne Université (Campus Jussieu)
+-   Temps de travail hebdomadaire : 35 h.
+-   Début du stage : dès que possible.
+-   Durée du stage : 3 à 5 mois.
+-   Gratification : conforme au taux légal en vigueur.
+
+Modalités:
+
+-   Envoyer CV et relevé de notes à
+    motasem.alrahabi@sorbonne-universite.fr
+
