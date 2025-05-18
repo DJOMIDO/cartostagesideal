@@ -10,7 +10,7 @@ if (isset($_POST["newusername"]) && isset($_POST["newemail"]) && isset($_POST["n
     $password = $_POST["newpassword"];
 
     try {
-        // 检查用户名和邮箱是否已存在
+        // Check if the username or email already exists
         $checkUser = $db->prepare("SELECT * FROM users WHERE username = :uname OR email = :uemail");
         $checkUser->bindParam(":uname", $username);
         $checkUser->bindParam(":uemail", $email);
@@ -24,7 +24,7 @@ if (isset($_POST["newusername"]) && isset($_POST["newemail"]) && isset($_POST["n
                 echo "Cette adresse email a été déjà utilisée.";
             }
         } else {
-            // 直接插入明文密码
+            // Insert the new user into the database
             $stmt = $db->prepare("INSERT INTO users (username, email, password) VALUES (:uname, :uemail, :upassword)");
             $stmt->bindParam(":uname", $username);
             $stmt->bindParam(":uemail", $email);

@@ -94,7 +94,7 @@
                         </div>
                     </div>
                     <div class="card-body text-white" style="text-align:center">
-                        <h4 class="card-title">RSEAUX IDL</h4>
+                        <h4 class="card-title">RESAUX IDL</h4>
                         <p class="card-text">Besoin d'informations sur un stage</p>
                     </div>
                     <div class="card-footer">
